@@ -49190,8 +49190,8 @@
 "xyl__D_c":-1.0,
 "xylu__D_c":1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":"b3565",
 "annotation":{
 "bigg.reaction":"XYLI1",
@@ -69242,8 +69242,8 @@
 "tyr__L_p":1.0,
 "tyrp_p":-1.0
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":"b4055",
 "annotation":{
 "bigg.reaction":"TYRPpp",
@@ -79549,8 +79549,8 @@
 "udpg_p":-1.0,
 "ump_p":1.0
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":"b0480",
 "annotation":{
 "bigg.reaction":"UDPGPpp",
@@ -100652,9 +100652,10 @@
 "val__L_c":-0.423162,
 "zn2_c":-0.000341
 },
-"lower_bound":0.1,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
+"objective_coefficient":1.0,
 "annotation":{
 "bigg.reaction":"Ec_iML1515_core_75p37M",
 "sbo":"SBO:0000629"
@@ -100792,7 +100793,7 @@
 "metabolites":{
 "phpyr_e":-1.0
 },
-"lower_bound":0.8,
+"lower_bound":-1000,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"unknow"
@@ -100869,17 +100870,6 @@
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"unknow"
-},
-{
-"id":"DM_Salid_c",
-"name":"Salidroside demand",
-"metabolites":{
-"Salid_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"",
-"objective_coefficient":1.0
 }
 ],
 "genes":[

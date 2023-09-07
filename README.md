@@ -31,32 +31,27 @@ $ python -m ipykernel install --user --name CulECpy --display-name "CulECpy"
 
 **data:**new_idea_SKM_pre_meta
 
-**2.Construction of synthetic consortium of rosmarinic acid with different two/three-strain pathway design ideas.**
+**2.Construction of synthetic consortia for curcumin with different pathway assignment strategies.**
 
-**code:**CulECpy_TestFlow_2_RA_two.ipynb & CulECpy_TestFlow_2_RA_three.ipynb
+**code:**CulECpy_TestFlow_2.ipynb
+
+**data:**cur
+
+**3.Construction of synthetic consortium of rosmarinic acid with different two/three-strain pathway design ideas.**
+
+**code:**CulECpy_TestFlow_3.ipynb.ipynb
 
 **data:**3-mass
 
-**3.Construction of synthetic consortia for isoprenl.**
-
-**code:**CulECpy_TestFlow_4.ipynb
-
-**data:**new_idea_MVA_MEP
-
 **4.Construction of synthetic consortia for salidroside.**
 
-**code:**CulECpy_TestFlow_5.ipynb
+**code:**CulECpy_TestFlow_4.ipynb
 
 **data:**new_idea_AGGD
 
 **5.Construction of synthetic consortia for cadaverine.**
 
-**code:**CulECpy_TestFlow_6.ipynb
+**code:**CulECpy_TestFlow_5.ipynb
 
 **data:**iCW773+iml1515
 
-**6.Construction of synthetic consortia for 2-methylbutyric acid.**
-
-**code:**CulECpy_TestFlow_7.ipynb
-
-**data:**new_idea_SBCF

@@ -45616,8 +45616,8 @@
 "metabolites":{
 "tyr__L_e":-1.0
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":1000,
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"tyr__L",

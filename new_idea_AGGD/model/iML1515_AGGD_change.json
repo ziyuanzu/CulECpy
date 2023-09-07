@@ -96500,8 +96500,8 @@
 "metabolites":{
 "A_tyr__L_e":-1.0
 },
-"lower_bound":0.1,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"tyr__L",
@@ -151475,8 +151475,8 @@
 "A_val__L_c":-0.423162,
 "A_zn2_c":-0.000341
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"Ec_iML1515_core_75p37M",
@@ -151683,17 +151683,6 @@
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"unknow"
-},
-{
-"id":"A_DM_Tyrosol_c",
-"name":"Tyrosol demand",
-"metabolites":{
-"A_Tyrosol_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"",
-"objective_coefficient":1.0
 },
 {
 "id":"B_ALATA_D2",
@@ -158820,8 +158809,8 @@
 "B_xyl__D_c":-1.0,
 "B_xylu__D_c":1.0
 },
-"lower_bound":-1000.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":"b3565",
 "annotation":{
 "bigg.reaction":"XYLI1",
@@ -178872,8 +178861,8 @@
 "B_tyr__L_p":1.0,
 "B_tyrp_p":-1.0
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":"b4055",
 "annotation":{
 "bigg.reaction":"TYRPpp",
@@ -189179,8 +189168,8 @@
 "B_udpg_p":-1.0,
 "B_ump_p":1.0
 },
-"lower_bound":0.0,
-"upper_bound":1000.0,
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":"b0480",
 "annotation":{
 "bigg.reaction":"UDPGPpp",
@@ -210282,8 +210271,8 @@
 "B_val__L_c":-0.423162,
 "B_zn2_c":-0.000341
 },
-"lower_bound":0,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"Ec_iML1515_core_75p37M",
@@ -210422,8 +210411,8 @@
 "metabolites":{
 "B_phpyr_e":-1.0
 },
-"lower_bound":0.8,
-"upper_bound":1000,
+"lower_bound":0,
+"upper_bound":0,
 "gene_reaction_rule":"",
 "subsystem":"unknow"
 },
@@ -210498,17 +210487,8 @@
 "lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
+"objective_coefficient":1.0,
 "subsystem":"unknow"
-},
-{
-"id":"B_DM_Salid_c",
-"name":"Salidroside demand",
-"metabolites":{
-"B_Salid_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":""
 },
 {
 "id":"A_dms_e_con_1",

@@ -13581,8 +13581,8 @@
 "metabolites":{
 "glyc_e":-1.0
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":-10,
+"upper_bound":0,
 "gene_reaction_rule":""
 },
 {
@@ -13817,7 +13817,7 @@
 "metabolites":{
 "lys__L_e":-1.0
 },
-"lower_bound":-1000,
+"lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":""
 },

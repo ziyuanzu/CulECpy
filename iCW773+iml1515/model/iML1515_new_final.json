@@ -44181,8 +44181,8 @@
 "metabolites":{
 "glyc_e":-1.0
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":-10,
+"upper_bound":0,
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"glyc",
@@ -46305,7 +46305,7 @@
 "glc__D_e":-1.0
 },
 "lower_bound":0,
-"upper_bound":1000,
+"upper_bound":0,
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"glc__D",
@@ -46881,8 +46881,8 @@
 "metabolites":{
 "lys__L_e":-1.0
 },
-"lower_bound":-1000,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
 "annotation":{
 "bigg.reaction":"lys__L",

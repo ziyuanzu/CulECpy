@@ -1,9 +1,9 @@
 A_SHCHD2	0.0	A_Dihydrosirohydrochlorin + A_Nicotinamide adenine dinucleotide --> A_H+ + A_Nicotinamide adenine dinucleotide - reduced + A_Sirohydrochlorin
 A_CPPPGO	0.0	A_Coproporphyrinogen III + 2.0 A_H+ + A_O2 O2 --> 2.0 A_CO2 CO2 + 2.0 A_H2O H2O + A_Protoporphyrinogen IX
 A_GLYCTO2	0.0	A_Glycolate C2H3O3 + A_Ubiquinone-8 --> A_Glyoxylate + A_Ubiquinol-8
-A_PFK_3	2.1678	A_ATP C10H12N5O13P3 + A_Sedoheptulose 7-phosphate --> A_ADP C10H12N5O10P2 + A_H+ + A_Sedoheptulose 1,7-bisphosphate
+A_PFK_3	0.1932	A_ATP C10H12N5O13P3 + A_Sedoheptulose 7-phosphate --> A_ADP C10H12N5O10P2 + A_H+ + A_Sedoheptulose 1,7-bisphosphate
 A_LEUTAi	0.0451	A_4-Methyl-2-oxopentanoate + A_L-Glutamate --> A_2-Oxoglutarate + A_L-Leucine
-A_SHK3Dr	6.6008	A_3-Dehydroshikimate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced --> A_Nicotinamide adenine dinucleotide phosphate + A_Shikimate
+A_SHK3Dr	0.6768	A_3-Dehydroshikimate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced --> A_Nicotinamide adenine dinucleotide phosphate + A_Shikimate
 A_G5SD	0.0221	A_L-Glutamate 5-phosphate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced --> A_L-Glutamate 5-semialdehyde + A_Nicotinamide adenine dinucleotide phosphate + A_Phosphate
 A_APRAUR	0.0	A_5-Amino-6-(5'-phosphoribosylamino)uracil + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced --> A_5-Amino-6-(5'-phosphoribitylamino)uracil + A_Nicotinamide adenine dinucleotide phosphate
 A_DB4PS	0.0001	A_D-Ribulose 5-phosphate --> A_3,4-dihydroxy-2-butanone 4-phosphate + A_Formate + A_H+
@@ -22,36 +22,37 @@ A_DHORTS	-0.0331	A_(S)-Dihydroorotate + A_H2O H2O <=> A_N-Carbamoyl-L-aspartate 
 A_OMPDC	0.0331	A_H+ + A_Orotidine 5'-phosphate --> A_CO2 CO2 + A_UMP C9H11N2O9P
 A_CS	0.1075	A_Acetyl-CoA + A_H2O H2O + A_Oxaloacetate --> A_Citrate + A_Coenzyme A + A_H+
 A_ICDHyr	0.1075	A_Isocitrate + A_Nicotinamide adenine dinucleotide phosphate <=> A_2-Oxoglutarate + A_CO2 CO2 + A_Nicotinamide adenine dinucleotide phosphate - reduced
+A_ACALD	0.1663	A_Acetaldehyde + A_Coenzyme A + A_Nicotinamide adenine dinucleotide <=> A_Acetyl-CoA + A_H+ + A_Nicotinamide adenine dinucleotide - reduced
 A_PPA	0.3146	A_H2O H2O + A_Diphosphate --> A_H+ + 2.0 A_Phosphate
 A_ALAR	0.0042	A_L-Alanine <=> A_D-Alanine
 A_ALATA_L	-0.0582	A_2-Oxoglutarate + A_L-Alanine <=> A_L-Glutamate + A_Pyruvate
 A_PPM	-0.0001	A_Alpha-D-Ribose 1-phosphate <=> A_Alpha-D-Ribose 5-phosphate
-A_ASPTA	-1.4464	A_2-Oxoglutarate + A_L-Aspartate <=> A_L-Glutamate + A_Oxaloacetate
+A_ASPTA	-0.4591	A_2-Oxoglutarate + A_L-Aspartate <=> A_L-Glutamate + A_Oxaloacetate
 A_A5PISO	0.0039	A_D-Ribulose 5-phosphate <=> A_D-Arabinose 5-phosphate
 A_IPPMIb	-0.0451	A_2-Isopropylmaleate + A_H2O H2O <=> A_3-Carboxy-3-hydroxy-4-methylpentanoate
 A_ACHBS	0.0291	A_2-Oxobutanoate + A_H+ + A_Pyruvate --> A_(S)-2-Aceto-2-hydroxybutanoate + A_CO2 CO2
 A_ACLS	0.0874	A_H+ + 2.0 A_Pyruvate --> A_(S)-2-Acetolactate + A_CO2 CO2
-A_PSCVT	6.6008	A_Phosphoenolpyruvate + A_Shikimate 5-phosphate <=> A_5-O-(1-Carboxyvinyl)-3-phosphoshikimate + A_Phosphate
+A_PSCVT	0.6768	A_Phosphoenolpyruvate + A_Shikimate 5-phosphate <=> A_5-O-(1-Carboxyvinyl)-3-phosphoshikimate + A_Phosphate
 A_ANS	0.0057	A_Chorismate + A_L-Glutamine --> A_Anthranilate + A_L-Glutamate + A_H+ + A_Pyruvate
 A_ANPRT	0.0057	A_Anthranilate + A_5-Phospho-alpha-D-ribose 1-diphosphate --> A_Diphosphate + A_N-(5-Phospho-D-ribosyl)anthranilate
-A_CHORM	6.595	A_Chorismate --> A_Prephenate
-A_CHORS	6.6008	A_5-O-(1-Carboxyvinyl)-3-phosphoshikimate --> A_Chorismate + A_Phosphate
+A_CHORM	0.6711	A_Chorismate --> A_Prephenate
+A_CHORS	0.6768	A_5-O-(1-Carboxyvinyl)-3-phosphoshikimate --> A_Chorismate + A_Phosphate
 A_IGPS	0.0057	A_1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate + A_H+ --> A_C'-(3-Indolyl)-glycerol 3-phosphate + A_CO2 CO2 + A_H2O H2O
-A_ENO	13.2359	A_D-Glycerate 2-phosphate <=> A_H2O H2O + A_Phosphoenolpyruvate
-A_FBA	6.6709	A_D-Fructose 1,6-bisphosphate <=> A_Dihydroxyacetone phosphate + A_Glyceraldehyde 3-phosphate
-A_PPS	1.4219	A_ATP C10H12N5O13P3 + A_H2O H2O + A_Pyruvate --> A_AMP C10H12N5O7P + 2.0 A_H+ + A_Phosphoenolpyruvate + A_Phosphate
-A_PGK	-13.2359	A_3-Phospho-D-glycerate + A_ATP C10H12N5O13P3 <=> A_3-Phospho-D-glyceroyl phosphate + A_ADP C10H12N5O10P2
-A_RPE	-2.2651	A_D-Ribulose 5-phosphate <=> A_D-Xylulose 5-phosphate
-A_TKT1	2.1678	A_Alpha-D-Ribose 5-phosphate + A_D-Xylulose 5-phosphate <=> A_Glyceraldehyde 3-phosphate + A_Sedoheptulose 7-phosphate
+A_ENO	2.3754	A_D-Glycerate 2-phosphate <=> A_H2O H2O + A_Phosphoenolpyruvate
+A_FBA	1.2407	A_D-Fructose 1,6-bisphosphate <=> A_Dihydroxyacetone phosphate + A_Glyceraldehyde 3-phosphate
+A_PGI	0.5527	A_D-Glucose 6-phosphate <=> A_D-Fructose 6-phosphate
+A_PGK	-2.3754	A_3-Phospho-D-glycerate + A_ATP C10H12N5O13P3 <=> A_3-Phospho-D-glyceroyl phosphate + A_ADP C10H12N5O10P2
+A_RPE	-0.2905	A_D-Ribulose 5-phosphate <=> A_D-Xylulose 5-phosphate
+A_TKT1	0.1932	A_Alpha-D-Ribose 5-phosphate + A_D-Xylulose 5-phosphate <=> A_Glyceraldehyde 3-phosphate + A_Sedoheptulose 7-phosphate
 A_FMNAT	0.0	A_ATP C10H12N5O13P3 + A_FMN C17H19N4O9P + A_H+ --> A_Flavin adenine dinucleotide oxidized + A_Diphosphate
-A_NDPK6	0.0026	A_ATP C10H12N5O13P3 + A_DUDP C9H11N2O11P2 <=> A_ADP C10H12N5O10P2 + A_DUTP C9H11N2O14P3
+A_TRPAS2	-0.0057	A_H2O H2O + A_L-Tryptophan <=> A_Indole + A_Ammonium + A_Pyruvate
 A_PMDPHT	0.0	A_5-Amino-6-(5'-phosphoribitylamino)uracil + A_H2O H2O --> A_4-(1-D-Ribitylamino)-5-aminouracil + A_Phosphate
 A_ILETA	-0.0291	A_2-Oxoglutarate + A_L-Isoleucine <=> A_(S)-3-Methyl-2-oxopentanoate + A_L-Glutamate
 A_VALTA	-0.0423	A_2-Oxoglutarate + A_L-Valine <=> A_3-Methyl-2-oxobutanoate + A_L-Glutamate
 A_ORPT	-0.0331	A_Orotidine 5'-phosphate + A_Diphosphate <=> A_Orotate C5H3N2O4 + A_5-Phospho-alpha-D-ribose 1-diphosphate
 A_RBFSa	0.0001	A_4-(1-D-Ribitylamino)-5-aminouracil + A_3,4-dihydroxy-2-butanone 4-phosphate --> A_6,7-Dimethyl-8-(1-D-ribityl)lumazine + 2.0 A_H2O H2O + A_Phosphate
 A_DHAD2	0.0291	A_(R)-2,3-Dihydroxy-3-methylpentanoate --> A_(S)-3-Methyl-2-oxopentanoate + A_H2O H2O
-A_PFL	1.1645	A_Coenzyme A + A_Pyruvate --> A_Acetyl-CoA + A_Formate
+A_PFL	0.1772	A_Coenzyme A + A_Pyruvate --> A_Acetyl-CoA + A_Formate
 A_PTAr	-0.0582	A_Acetyl-CoA + A_Phosphate <=> A_Acetyl phosphate + A_Coenzyme A
 A_ACKr	0.0582	A_Acetate + A_ATP C10H12N5O13P3 <=> A_Acetyl phosphate + A_ADP C10H12N5O10P2
 A_MOAT	0.0019	A_CMP-3-deoxy-D-manno-octulosonate + A_2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate --> A_CMP C9H12N3O8P + A_H+ + A_KDO-lipid IV(A)
@@ -62,10 +63,9 @@ A_TDSK	0.0019	A_ATP C10H12N5O13P3 + A_Lipid A Disaccharide --> A_ADP C10H12N5O10
 A_IPMD	0.0451	A_3-Carboxy-2-hydroxy-4-methylpentanoate + A_Nicotinamide adenine dinucleotide --> A_3-Carboxy-4-methyl-2-oxopentanoate + A_H+ + A_Nicotinamide adenine dinucleotide - reduced
 A_AIRC3	-0.0448	A_5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate <=> A_5-phosphoribosyl-5-carboxyaminoimidazole
 A_ADSL2r	0.0448	A_(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate <=> A_5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide + A_Fumarate
-A_RNDR4	0.0026	A_Reduced thioredoxin + A_UDP C9H11N2O12P2 --> A_DUDP C9H11N2O11P2 + A_H2O H2O + A_Oxidized thioredoxin
 A_TMDS	0.0026	A_DUMP C9H11N2O8P + A_5,10-Methylenetetrahydrofolate --> A_7,8-Dihydrofolate + A_DTMP C10H13N2O8P
 A_PPCDC	0.0001	A_N-((R)-4-Phosphopantothenoyl)-L-cysteine + A_H+ --> A_CO2 CO2 + A_Pantetheine 4'-phosphate
-A_DHQTi	6.6008	A_3-Dehydroquinate --> A_3-Dehydroshikimate + A_H2O H2O
+A_DHQTi	0.6768	A_3-Dehydroquinate --> A_3-Dehydroshikimate + A_H2O H2O
 A_PUNP1	-0.0001	A_Adenosine + A_Phosphate <=> A_Adenine + A_Alpha-D-Ribose 1-phosphate
 A_DHAD1	0.0874	A_(R)-2,3-Dihydroxy-3-methylbutanoate --> A_3-Methyl-2-oxobutanoate + A_H2O H2O
 A_IPPMIa	-0.0451	A_3-Carboxy-2-hydroxy-4-methylpentanoate <=> A_2-Isopropylmaleate + A_H2O H2O
@@ -83,13 +83,11 @@ A_GLUR	-0.0028	A_D-Glutamate <=> A_L-Glutamate
 A_DNMPPA	0.0001	A_Dihydroneopterin monophosphate + A_H2O H2O --> A_Dihydroneopterin + A_Phosphate
 A_HPPK2	0.0001	A_6-hydroxymethyl dihydropterin + A_ATP C10H12N5O13P3 --> A_6-hydroxymethyl-dihydropterin pyrophosphate + A_AMP C10H12N5O7P + A_H+
 A_PTPATi	0.0001	A_ATP C10H12N5O13P3 + A_H+ + A_Pantetheine 4'-phosphate --> A_Dephospho-CoA + A_Diphosphate
-A_HEX7	11.1133	A_ATP C10H12N5O13P3 + A_D-Fructose --> A_ADP C10H12N5O10P2 + A_D-Fructose 6-phosphate + A_H+
+A_HEX7	1.1811	A_ATP C10H12N5O13P3 + A_D-Fructose --> A_ADP C10H12N5O10P2 + A_D-Fructose 6-phosphate + A_H+
 A_DXPRIi	0.0002	A_1-deoxy-D-xylulose 5-phosphate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced --> A_2-C-methyl-D-erythritol 4-phosphate + A_Nicotinamide adenine dinucleotide phosphate
 A_OPHBDC	0.0	A_3-Octaprenyl-4-hydroxybenzoate + A_H+ --> A_2-Octaprenylphenol + A_CO2 CO2
-A_GHMT2r	-1.0476	A_L-Serine + A_5,6,7,8-Tetrahydrofolate <=> A_Glycine + A_H2O H2O + A_5,10-Methylenetetrahydrofolate
+A_GHMT2r	-0.0602	A_L-Serine + A_5,6,7,8-Tetrahydrofolate <=> A_Glycine + A_H2O H2O + A_5,10-Methylenetetrahydrofolate
 A_DHORD2	0.0331	A_(S)-Dihydroorotate + A_Ubiquinone-8 --> A_Orotate C5H3N2O4 + A_Ubiquinol-8
-A_SERD_L	0.9816	A_L-Serine --> A_Ammonium + A_Pyruvate
-A_THRD	1.1536	A_Nicotinamide adenine dinucleotide + A_L-Threonine --> A_L-2-Amino-3-oxobutanoate + A_H+ + A_Nicotinamide adenine dinucleotide - reduced
 A_KARA1	-0.0874	A_(R)-2,3-Dihydroxy-3-methylbutanoate + A_Nicotinamide adenine dinucleotide phosphate <=> A_(S)-2-Acetolactate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced
 A_KARA2	0.0291	A_(S)-2-Aceto-2-hydroxybutanoate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced <=> A_(R)-2,3-Dihydroxy-3-methylpentanoate + A_Nicotinamide adenine dinucleotide phosphate
 A_ACCOAC	0.2413	A_Acetyl-CoA + A_ATP C10H12N5O13P3 + A_Bicarbonate --> A_ADP C10H12N5O10P2 + A_H+ + A_Malonyl CoA C24H33N7O19P3S + A_Phosphate
@@ -97,22 +95,22 @@ A_NADK	0.0	A_ATP C10H12N5O13P3 + A_Nicotinamide adenine dinucleotide --> A_ADP C
 A_DXPS	0.0003	A_Glyceraldehyde 3-phosphate + A_H+ + A_Pyruvate --> A_CO2 CO2 + A_1-deoxy-D-xylulose 5-phosphate
 A_CDPMEK	0.0002	A_4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol + A_ATP C10H12N5O13P3 --> A_2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol + A_ADP C10H12N5O10P2 + A_H+
 A_MECDPS	0.0002	A_2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol --> A_2-C-methyl-D-erythritol 2,4-cyclodiphosphate + A_CMP C9H12N3O8P
-A_XYLI2	11.1133	A_D-Glucose <=> A_D-Fructose
-A_PPC	1.4497	A_CO2 CO2 + A_H2O H2O + A_Phosphoenolpyruvate --> A_H+ + A_Oxaloacetate + A_Phosphate
+A_XYLI2	1.1811	A_D-Glucose <=> A_D-Fructose
+A_PPC	0.4623	A_CO2 CO2 + A_H2O H2O + A_Phosphoenolpyruvate --> A_H+ + A_Oxaloacetate + A_Phosphate
 A_GTPCII2	0.0	A_GTP C10H12N5O14P3 + 3.0 A_H2O H2O --> A_2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate + A_Formate + 2.0 A_H+ + A_Diphosphate
 A_SADT2	0.0247	A_ATP C10H12N5O13P3 + A_GTP C10H12N5O14P3 + A_H2O H2O + A_Sulfate --> A_Adenosine 5'-phosphosulfate + A_GDP C10H12N5O11P2 + A_Phosphate + A_Diphosphate
 A_GLXCL	0.0	2.0 A_Glyoxylate + A_H+ --> A_2-Hydroxy-3-oxopropanoate + A_CO2 CO2
 A_NNDPR	0.0002	2.0 A_H+ + A_5-Phospho-alpha-D-ribose 1-diphosphate + A_Quinolinate --> A_CO2 CO2 + A_Nicotinate D-ribonucleotide + A_Diphosphate
 A_SDPDS	0.0371	A_H2O H2O + A_N-Succinyl-LL-2,6-diaminoheptanedioate --> A_LL-2,6-Diaminoheptanedioate + A_Succinate
-A_ADK1	1.6487	A_AMP C10H12N5O7P + A_ATP C10H12N5O13P3 <=> 2.0 A_ADP C10H12N5O10P2
+A_ADK1	0.2268	A_AMP C10H12N5O7P + A_ATP C10H12N5O13P3 <=> 2.0 A_ADP C10H12N5O10P2
 A_OCTDPS	0.0	A_Farnesyl diphosphate + 5.0 A_Isopentenyl diphosphate --> A_All-trans-Octaprenyl diphosphate + 5.0 A_Diphosphate
 A_UDCPDP	0.0028	A_H2O H2O + A_Undecaprenyl diphosphate --> A_H+ + A_Phosphate + A_Undecaprenyl phosphate
 A_CYTK1	0.0181	A_ATP C10H12N5O13P3 + A_CMP C9H12N3O8P <=> A_ADP C10H12N5O10P2 + A_CDP C9H12N3O11P2
 A_GK1	0.0243	A_ATP C10H12N5O13P3 + A_GMP C10H12N5O8P <=> A_ADP C10H12N5O10P2 + A_GDP C10H12N5O11P2
 A_UAPGR	0.0028	A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced + A_UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine --> A_Nicotinamide adenine dinucleotide phosphate + A_UDP-N-acetylmuramate
-A_GLYAT	-1.1536	A_Acetyl-CoA + A_Glycine <=> A_L-2-Amino-3-oxobutanoate + A_Coenzyme A
+A_TRPS3	0.0057	A_C'-(3-Indolyl)-glycerol 3-phosphate --> A_Glyceraldehyde 3-phosphate + A_Indole
 A_FADRx	0.0001	A_Flavin adenine dinucleotide oxidized + A_H+ + A_Nicotinamide adenine dinucleotide - reduced --> A_Flavin adenine dinucleotide reduced + A_Nicotinamide adenine dinucleotide
-A_NDPK2	0.0399	A_ATP C10H12N5O13P3 + A_UDP C9H11N2O12P2 <=> A_ADP C10H12N5O10P2 + A_UTP C9H11N2O15P3
+A_NDPK2	0.0425	A_ATP C10H12N5O13P3 + A_UDP C9H11N2O12P2 <=> A_ADP C10H12N5O10P2 + A_UTP C9H11N2O15P3
 A_NDPK3	0.0181	A_ATP C10H12N5O13P3 + A_CDP C9H12N3O11P2 <=> A_ADP C10H12N5O10P2 + A_CTP C9H12N3O14P3
 A_NDPK4	0.0026	A_ATP C10H12N5O13P3 + A_DTDP C10H13N2O11P2 <=> A_ADP C10H12N5O10P2 + A_DTTP C10H13N2O14P3
 A_FCLT	0.0	A_Fe2+ mitochondria + A_Protoporphyrin --> 2.0 A_H+ + A_Protoheme C34H30FeN4O4
@@ -123,7 +121,7 @@ A_KDOPS	0.0039	A_D-Arabinose 5-phosphate + A_H2O H2O + A_Phosphoenolpyruvate -->
 A_KDOPP	0.0039	A_H2O H2O + A_3-Deoxy-D-manno-octulosonate 8-phosphate --> A_3-Deoxy-D-manno-2-octulosonate + A_Phosphate
 A_DTMPK	0.0026	A_ATP C10H12N5O13P3 + A_DTMP C10H13N2O8P <=> A_ADP C10H12N5O10P2 + A_DTDP C10H13N2O11P2
 A_NDPK1	0.079	A_ATP C10H12N5O13P3 + A_GDP C10H12N5O11P2 <=> A_ADP C10H12N5O10P2 + A_GTP C10H12N5O14P3
-A_TRDR	0.0274	A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced + A_Oxidized thioredoxin --> A_Nicotinamide adenine dinucleotide phosphate + A_Reduced thioredoxin
+A_TRDR	0.0247	A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced + A_Oxidized thioredoxin --> A_Nicotinamide adenine dinucleotide phosphate + A_Reduced thioredoxin
 A_RHCCE	0.0	A_S-Ribosyl-L-homocysteine --> A_4,5-dihydroxy-2,3-pentanedione + A_L-Homocysteine
 A_ADCS	0.0001	A_Chorismate + A_L-Glutamine --> A_4-amino-4-deoxychorismate + A_L-Glutamate
 A_ADCL	0.0001	A_4-amino-4-deoxychorismate --> A_4-Aminobenzoate + A_H+ + A_Pyruvate
@@ -140,12 +138,12 @@ A_MCOATA	0.2413	A_Acyl carrier protein + A_Malonyl CoA C24H33N7O19P3S <=> A_Coen
 A_IPDPS	0.0002	A_1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate + A_H+ + A_Nicotinamide adenine dinucleotide - reduced --> A_H2O H2O + A_Isopentenyl diphosphate + A_Nicotinamide adenine dinucleotide
 A_DAPE	0.0371	A_LL-2,6-Diaminoheptanedioate <=> A_Meso-2,6-Diaminoheptanedioate
 A_DHDPRy	0.0371	A_2,3-Dihydrodipicolinate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced --> A_Nicotinamide adenine dinucleotide phosphate + A_2,3,4,5-Tetrahydrodipicolinate
-A_HSK	1.2081	A_ATP C10H12N5O13P3 + A_L-Homoserine --> A_ADP C10H12N5O10P2 + A_H+ + A_O-Phospho-L-homoserine
+A_HSK	0.2207	A_ATP C10H12N5O13P3 + A_L-Homoserine --> A_ADP C10H12N5O10P2 + A_H+ + A_O-Phospho-L-homoserine
 A_SDPTA	-0.0371	A_2-Oxoglutarate + A_N-Succinyl-LL-2,6-diaminoheptanedioate <=> A_L-Glutamate + A_N-Succinyl-2-L-amino-6-oxoheptanedioate
-A_THRS	1.2081	A_H2O H2O + A_O-Phospho-L-homoserine --> A_Phosphate + A_L-Threonine
+A_THRS	0.2207	A_H2O H2O + A_O-Phospho-L-homoserine --> A_Phosphate + A_L-Threonine
 A_HSST	0.0154	A_L-Homoserine + A_Succinyl-CoA --> A_Coenzyme A + A_O-Succinyl-L-homoserine
 A_PPNDH	0.0185	A_H+ + A_Prephenate --> A_CO2 CO2 + A_H2O H2O + A_Phenylpyruvate
-A_DDPA	6.6008	A_D-Erythrose 4-phosphate + A_H2O H2O + A_Phosphoenolpyruvate --> A_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate + A_Phosphate
+A_DDPA	0.6768	A_D-Erythrose 4-phosphate + A_H2O H2O + A_Phosphoenolpyruvate --> A_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate + A_Phosphate
 A_G3PD2	-0.0139	A_Glycerol 3-phosphate + A_Nicotinamide adenine dinucleotide phosphate <=> A_Dihydroxyacetone phosphate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced
 A_U23GAAT	0.0039	A_(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein] + A_UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine --> A_Acyl carrier protein + A_H+ + A_UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine
 A_UAAGDS	0.0028	A_Meso-2,6-Diaminoheptanedioate + A_ATP C10H12N5O13P3 + A_UDP-N-acetylmuramoyl-L-alanyl-D-glutamate --> A_ADP C10H12N5O10P2 + A_H+ + A_Phosphate + A_UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate
@@ -165,8 +163,8 @@ A_SERAT	0.0247	A_Acetyl-CoA + A_L-Serine <=> A_O-Acetyl-L-serine + A_Coenzyme A
 A_CYSS	0.0247	A_O-Acetyl-L-serine + A_Hydrogen sulfide --> A_Acetate + A_L-Cysteine + A_H+
 A_BPNT	0.0247	A_H2O H2O + A_Adenosine 3',5'-bisphosphate --> A_AMP C10H12N5O7P + A_Phosphate
 A_PAPSR	0.0247	A_3'-Phosphoadenylyl sulfate + A_Reduced thioredoxin --> 2.0 A_H+ + A_Adenosine 3',5'-bisphosphate + A_Sulfite + A_Oxidized thioredoxin
-A_ASPK	1.2605	A_L-Aspartate + A_ATP C10H12N5O13P3 <=> A_4-Phospho-L-aspartate + A_ADP C10H12N5O10P2
-A_ASAD	-1.2605	A_L-Aspartate 4-semialdehyde + A_Nicotinamide adenine dinucleotide phosphate + A_Phosphate <=> A_4-Phospho-L-aspartate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced
+A_ASPK	0.2732	A_L-Aspartate + A_ATP C10H12N5O13P3 <=> A_4-Phospho-L-aspartate + A_ADP C10H12N5O10P2
+A_ASAD	-0.2732	A_L-Aspartate 4-semialdehyde + A_Nicotinamide adenine dinucleotide phosphate + A_Phosphate <=> A_4-Phospho-L-aspartate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced
 A_DAPDC	0.0343	A_Meso-2,6-Diaminoheptanedioate + A_H+ --> A_CO2 CO2 + A_L-Lysine
 A_METAT	0.0001	A_ATP C10H12N5O13P3 + A_H2O H2O + A_L-Methionine --> A_S-Adenosyl-L-methionine + A_Phosphate + A_Diphosphate
 A_TMPK	0.0	A_ATP C10H12N5O13P3 + A_Thiamin monophosphate --> A_ADP C10H12N5O10P2 + A_Thiamine diphosphate
@@ -175,7 +173,7 @@ A_SULR	0.0247	5.0 A_H+ + 3.0 A_Nicotinamide adenine dinucleotide phosphate - red
 A_CBMKr	0.0627	A_ATP C10H12N5O13P3 + A_CO2 CO2 + A_Ammonium <=> A_ADP C10H12N5O10P2 + A_Carbamoyl phosphate + 2.0 A_H+
 A_NNATr	0.0002	A_ATP C10H12N5O13P3 + A_H+ + A_Nicotinate D-ribonucleotide <=> A_Deamino-NAD+ + A_Diphosphate
 A_AIRC2	0.0448	A_5-amino-1-(5-phospho-D-ribosyl)imidazole + A_ATP C10H12N5O13P3 + A_Bicarbonate --> A_5-phosphoribosyl-5-carboxyaminoimidazole + A_ADP C10H12N5O10P2 + A_H+ + A_Phosphate
-A_GAPD	13.2359	A_Glyceraldehyde 3-phosphate + A_Nicotinamide adenine dinucleotide + A_Phosphate <=> A_3-Phospho-D-glyceroyl phosphate + A_H+ + A_Nicotinamide adenine dinucleotide - reduced
+A_GAPD	2.3754	A_Glyceraldehyde 3-phosphate + A_Nicotinamide adenine dinucleotide + A_Phosphate <=> A_3-Phospho-D-glyceroyl phosphate + A_H+ + A_Nicotinamide adenine dinucleotide - reduced
 A_ARGSL	0.0296	A_N(omega)-(L-Arginino)succinate <=> A_L-Arginine + A_Fumarate
 A_GLU5K	0.0221	A_ATP C10H12N5O13P3 + A_L-Glutamate --> A_ADP C10H12N5O10P2 + A_L-Glutamate 5-phosphate
 A_IPPS	0.0451	A_3-Methyl-2-oxobutanoate + A_Acetyl-CoA + A_H2O H2O --> A_3-Carboxy-3-hydroxy-4-methylpentanoate + A_Coenzyme A + A_H+
@@ -192,8 +190,7 @@ A_GLUPRT	0.0448	A_L-Glutamine + A_H2O H2O + A_5-Phospho-alpha-D-ribose 1-diphosp
 A_NADS1	0.0002	A_ATP C10H12N5O13P3 + A_Deamino-NAD+ + A_Ammonium --> A_AMP C10H12N5O7P + A_H+ + A_Nicotinamide adenine dinucleotide + A_Diphosphate
 A_OCBT	0.0296	A_Carbamoyl phosphate + A_Ornithine <=> A_L-Citrulline + A_H+ + A_Phosphate
 A_PHETA1	-0.0185	A_2-Oxoglutarate + A_L-Phenylalanine <=> A_L-Glutamate + A_Phenylpyruvate
-A_PPND	6.5765	A_Nicotinamide adenine dinucleotide + A_Prephenate --> A_3-(4-Hydroxyphenyl)pyruvate + A_CO2 CO2 + A_Nicotinamide adenine dinucleotide - reduced
-A_TRPS1	0.0057	A_C'-(3-Indolyl)-glycerol 3-phosphate + A_L-Serine --> A_Glyceraldehyde 3-phosphate + A_H2O H2O + A_L-Tryptophan
+A_PPND	0.6525	A_Nicotinamide adenine dinucleotide + A_Prephenate --> A_3-(4-Hydroxyphenyl)pyruvate + A_CO2 CO2 + A_Nicotinamide adenine dinucleotide - reduced
 A_PRAMPC	0.0095	A_H2O H2O + A_1-(5-Phosphoribosyl)-AMP --> A_1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
 A_ACOTA	-0.0296	A_N2-Acetyl-L-ornithine + A_2-Oxoglutarate <=> A_N-Acetyl-L-glutamate 5-semialdehyde + A_L-Glutamate
 A_PDX5PS	0.0	A_1-deoxy-D-xylulose 5-phosphate + A_Nicotinamide adenine dinucleotide + A_O-Phospho-4-hydroxy-L-threonine --> A_CO2 CO2 + 2.0 A_H2O H2O + A_H+ + A_Nicotinamide adenine dinucleotide - reduced + A_Pyridoxine 5'-phosphate + A_Phosphate
@@ -204,59 +201,60 @@ A_PRFGS	0.0448	A_ATP C10H12N5O13P3 + A_N2-Formyl-N1-(5-phospho-D-ribosyl)glycina
 A_MOAT2	0.0019	A_CMP-3-deoxy-D-manno-octulosonate + A_KDO-lipid IV(A) --> A_CMP C9H12N3O8P + A_H+ + A_KDO(2)-lipid IV(A)
 A_MOHMT	0.0001	A_3-Methyl-2-oxobutanoate + A_H2O H2O + A_5,10-Methylenetetrahydrofolate --> A_2-Dehydropantoate + A_5,6,7,8-Tetrahydrofolate
 A_GMPS	0.0243	A_ATP C10H12N5O13P3 + A_Ammonium + A_Xanthosine 5'-phosphate --> A_AMP C10H12N5O7P + A_GMP C10H12N5O8P + 2.0 A_H+ + A_Diphosphate
-A_FTHFLi	1.12	A_ATP C10H12N5O13P3 + A_Formate + A_5,6,7,8-Tetrahydrofolate --> A_10-Formyltetrahydrofolate + A_ADP C10H12N5O10P2 + A_Phosphate
+A_FTHFLi	0.1326	A_ATP C10H12N5O13P3 + A_Formate + A_5,6,7,8-Tetrahydrofolate --> A_10-Formyltetrahydrofolate + A_ADP C10H12N5O10P2 + A_Phosphate
 A_CHRPL	0.0	A_Chorismate --> A_4-Hydroxybenzoate + A_Pyruvate
-A_FBA3	2.1678	A_Sedoheptulose 1,7-bisphosphate <=> A_Dihydroxyacetone phosphate + A_D-Erythrose 4-phosphate
+A_FBA3	0.1932	A_Sedoheptulose 1,7-bisphosphate <=> A_Dihydroxyacetone phosphate + A_D-Erythrose 4-phosphate
 A_PMPK	0.0	A_4-Amino-2-methyl-5-phosphomethylpyrimidine + A_ATP C10H12N5O13P3 --> A_2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate + A_ADP C10H12N5O10P2
 A_ADSK	0.0247	A_Adenosine 5'-phosphosulfate + A_ATP C10H12N5O13P3 --> A_ADP C10H12N5O10P2 + A_H+ + A_3'-Phosphoadenylyl sulfate
-A_HSDy	-1.2235	A_L-Homoserine + A_Nicotinamide adenine dinucleotide phosphate <=> A_L-Aspartate 4-semialdehyde + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced
+A_HSDy	-0.2361	A_L-Homoserine + A_Nicotinamide adenine dinucleotide phosphate <=> A_L-Aspartate 4-semialdehyde + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced
 A_CYSTL	0.0154	A_L-Cystathionine + A_H2O H2O --> A_L-Homocysteine + A_Ammonium + A_Pyruvate
 A_SHSL1	0.0154	A_L-Cysteine + A_O-Succinyl-L-homoserine --> A_L-Cystathionine + A_H+ + A_Succinate
-A_Htex	-7.4815	A_H+ <=> A_H+
-A_H2Otex	-38.9656	A_H2O H2O <=> A_H2O H2O
+A_Htex	-1.5576	A_H+ <=> A_H+
+A_H2Otex	-6.3841	A_H2O H2O <=> A_H2O H2O
 A_O2tpp	0.0169	A_O2 O2 <=> A_O2 O2
-A_THD2pp	20.9245	2.0 A_H+ + A_Nicotinamide adenine dinucleotide - reduced + A_Nicotinamide adenine dinucleotide phosphate --> 2.0 A_H+ + A_Nicotinamide adenine dinucleotide + A_Nicotinamide adenine dinucleotide phosphate - reduced
+A_THD2pp	3.2333	2.0 A_H+ + A_Nicotinamide adenine dinucleotide - reduced + A_Nicotinamide adenine dinucleotide phosphate --> 2.0 A_H+ + A_Nicotinamide adenine dinucleotide + A_Nicotinamide adenine dinucleotide phosphate - reduced
 A_Kt2pp	0.0195	A_H+ + A_Potassium --> A_H+ + A_Potassium
-A_TYRt2rpp	-203.6228	A_H+ + A_L-Tyrosine <=> A_H+ + A_L-Tyrosine
+A_TYRt2rpp	-79.5588	A_H+ + A_L-Tyrosine <=> A_H+ + A_L-Tyrosine
 A_GTPCI	0.0001	A_GTP C10H12N5O14P3 + A_H2O H2O --> A_2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate + A_Formate + A_H+
-A_TKT2	-4.4329	A_D-Erythrose 4-phosphate + A_D-Xylulose 5-phosphate <=> A_D-Fructose 6-phosphate + A_Glyceraldehyde 3-phosphate
-A_CO2tpp	-3.5116	A_CO2 CO2 <=> A_CO2 CO2
+A_TKT2	-0.4837	A_D-Erythrose 4-phosphate + A_D-Xylulose 5-phosphate <=> A_D-Fructose 6-phosphate + A_Glyceraldehyde 3-phosphate
+A_CO2tpp	-0.5497	A_CO2 CO2 <=> A_CO2 CO2
 A_Ktex	0.0195	A_Potassium <=> A_Potassium
 A_ACt2rpp	-0.0005	A_Acetate + A_H+ <=> A_Acetate + A_H+
-A_ATPS4rpp	35.7928	A_ADP C10H12N5O10P2 + 4.0 A_H+ + A_Phosphate <=> A_ATP C10H12N5O13P3 + A_H2O H2O + 3.0 A_H+
+A_ATPS4rpp	17.5864	A_ADP C10H12N5O10P2 + 4.0 A_H+ + A_Phosphate <=> A_ATP C10H12N5O13P3 + A_H2O H2O + 3.0 A_H+
 A_ACt4pp	0.0005	A_Acetate + A_Sodium --> A_Acetate + A_Sodium
 A_O2tex	0.0169	A_O2 O2 <=> A_O2 O2
 A_DHFS	0.0001	A_ATP C10H12N5O13P3 + A_Dihydropteroate + A_L-Glutamate --> A_ADP C10H12N5O10P2 + A_7,8-Dihydrofolate + A_H+ + A_Phosphate
-A_GLCtex_copy1	11.1133	A_D-Glucose --> A_D-Glucose
+A_GLCtex_copy1	1.7338	A_D-Glucose --> A_D-Glucose
 A_PItex	0.0965	A_Phosphate <=> A_Phosphate
 A_METS	0.0154	A_5-Methyltetrahydrofolate + A_L-Homocysteine --> A_H+ + A_L-Methionine + A_5,6,7,8-Tetrahydrofolate
 A_PRASCSi	0.0448	A_5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate + A_L-Aspartate + A_ATP C10H12N5O13P3 --> A_(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate + A_ADP C10H12N5O10P2 + A_H+ + A_Phosphate
 A_TRSARr	0.0	A_2-Hydroxy-3-oxopropanoate + A_H+ + A_Nicotinamide adenine dinucleotide - reduced <=> A_(R)-Glycerate + A_Nicotinamide adenine dinucleotide
 A_SO4tex	0.0252	A_Sulfate <=> A_Sulfate
-A_NH4tex	7.6426	A_Ammonium <=> A_Ammonium
-A_CO2tex	-3.5116	A_CO2 CO2 <=> A_CO2 CO2
+A_NH4tex	1.7187	A_Ammonium <=> A_Ammonium
+A_CO2tex	-0.5497	A_CO2 CO2 <=> A_CO2 CO2
 A_MTHFR2	0.0154	2.0 A_H+ + A_5,10-Methylenetetrahydrofolate + A_Nicotinamide adenine dinucleotide - reduced --> A_5-Methyltetrahydrofolate + A_Nicotinamide adenine dinucleotide
 A_ASPO6	0.0002	A_L-Aspartate + A_O2 O2 --> A_Hydrogen peroxide + A_H+ + A_Iminoaspartate
 A_FE2tex	0.0016	A_Fe2+ mitochondria <=> A_Fe2+ mitochondria
 A_DHPS2	0.0001	A_4-Aminobenzoate + A_6-hydroxymethyl-dihydropterin pyrophosphate --> A_Dihydropteroate + A_Diphosphate
-A_MTHFC	-1.0657	A_H2O H2O + A_5,10-Methenyltetrahydrofolate <=> A_10-Formyltetrahydrofolate + A_H+
-A_MTHFD	-1.0657	A_5,10-Methylenetetrahydrofolate + A_Nicotinamide adenine dinucleotide phosphate <=> A_5,10-Methenyltetrahydrofolate + A_Nicotinamide adenine dinucleotide phosphate - reduced
+A_MTHFC	-0.0784	A_H2O H2O + A_5,10-Methenyltetrahydrofolate <=> A_10-Formyltetrahydrofolate + A_H+
+A_MTHFD	-0.0784	A_5,10-Methylenetetrahydrofolate + A_Nicotinamide adenine dinucleotide phosphate <=> A_5,10-Methenyltetrahydrofolate + A_Nicotinamide adenine dinucleotide phosphate - reduced
 A_QULNS	0.0002	A_Dihydroxyacetone phosphate + A_Iminoaspartate --> 2.0 A_H2O H2O + A_Phosphate + A_Quinolinate
-A_TYRtex	-203.6228	A_L-Tyrosine <=> A_L-Tyrosine
+A_TYRtex	-79.5588	A_L-Tyrosine <=> A_L-Tyrosine
 A_NI2tex	0.0	A_Nickel <=> A_Nickel
-A_NH4tpp	7.6426	A_Ammonium <=> A_Ammonium
+A_NH4tpp	1.7187	A_Ammonium <=> A_Ammonium
 A_DNTPPA	0.0001	A_2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate + A_H2O H2O --> A_Dihydroneopterin monophosphate + A_H+ + A_Diphosphate
 A_MG2tex	0.0009	A_Magnesium <=> A_Magnesium
 A_Zn2tex	0.0	A_Zinc <=> A_Zinc
 A_ACGK	0.0296	A_N-Acetyl-L-glutamate + A_ATP C10H12N5O13P3 --> A_N-Acetyl-L-glutamyl 5-phosphate + A_ADP C10H12N5O10P2
-A_H2Otpp	-38.9656	A_H2O H2O <=> A_H2O H2O
+A_H2Otpp	-6.3841	A_H2O H2O <=> A_H2O H2O
 A_COBALT2tex	0.0	A_Co2+ <=> A_Co2+
-A_GLCt2pp	11.1133	A_D-Glucose + A_H+ --> A_D-Glucose + A_H+
+A_GLCptspp	0.5527	A_D-Glucose + A_Phosphoenolpyruvate --> A_D-Glucose 6-phosphate + A_Pyruvate
+A_GLCt2pp	1.1811	A_D-Glucose + A_H+ --> A_D-Glucose + A_H+
 A_HSTPT	0.0095	A_L-Glutamate + A_3-(Imidazol-4-yl)-2-oxopropyl phosphate --> A_2-Oxoglutarate + A_L-Histidinol phosphate
 A_THDPS	0.0371	A_H2O H2O + A_Succinyl-CoA + A_2,3,4,5-Tetrahydrodipicolinate --> A_Coenzyme A + A_N-Succinyl-2-L-amino-6-oxoheptanedioate
 A_HMBS	0.0	A_H2O H2O + 4.0 A_Porphobilinogen --> A_Hydroxymethylbilane + 4.0 A_Ammonium
 A_MEPCT	0.0002	A_2-C-methyl-D-erythritol 4-phosphate + A_CTP C9H12N3O14P3 + A_H+ --> A_4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol + A_Diphosphate
-A_GLUDy	-8.3997	A_L-Glutamate + A_H2O H2O + A_Nicotinamide adenine dinucleotide phosphate <=> A_2-Oxoglutarate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced + A_Ammonium
+A_GLUDy	-1.4884	A_L-Glutamate + A_H2O H2O + A_Nicotinamide adenine dinucleotide phosphate <=> A_2-Oxoglutarate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced + A_Ammonium
 A_ATPM	6.86	A_ATP C10H12N5O13P3 + A_H2O H2O --> A_ADP C10H12N5O10P2 + A_H+ + A_Phosphate
 A_OMCDC	0.0451	A_3-Carboxy-4-methyl-2-oxopentanoate + A_H+ --> A_4-Methyl-2-oxopentanoate + A_CO2 CO2
 A_IG3PS	0.0095	A_L-Glutamine + A_5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide --> A_5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide + A_D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate + A_L-Glutamate + A_H+
@@ -265,21 +263,22 @@ A_DPR	0.0001	A_2-Dehydropantoate + A_H+ + A_Nicotinamide adenine dinucleotide ph
 A_THRD_L	0.0291	A_L-Threonine --> A_2-Oxobutanoate + A_Ammonium
 A_DHFR	0.0027	A_7,8-Dihydrofolate + A_H+ + A_Nicotinamide adenine dinucleotide phosphate - reduced <=> A_Nicotinamide adenine dinucleotide phosphate + A_5,6,7,8-Tetrahydrofolate
 A_PRAIi	0.0057	A_N-(5-Phospho-D-ribosyl)anthranilate --> A_1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
-A_TYRTA	-6.5765	A_2-Oxoglutarate + A_L-Tyrosine <=> A_3-(4-Hydroxyphenyl)pyruvate + A_L-Glutamate
-A_SHKK	6.6008	A_ATP C10H12N5O13P3 + A_Shikimate --> A_ADP C10H12N5O10P2 + A_H+ + A_Shikimate 5-phosphate
+A_TYRTA	-0.6525	A_2-Oxoglutarate + A_L-Tyrosine <=> A_3-(4-Hydroxyphenyl)pyruvate + A_L-Glutamate
+A_SHKK	0.6768	A_ATP C10H12N5O13P3 + A_Shikimate --> A_ADP C10H12N5O10P2 + A_H+ + A_Shikimate 5-phosphate
+A_PDH	0.0806	A_Coenzyme A + A_Nicotinamide adenine dinucleotide + A_Pyruvate --> A_Acetyl-CoA + A_CO2 CO2 + A_Nicotinamide adenine dinucleotide - reduced
 A_ACGS	0.0296	A_Acetyl-CoA + A_L-Glutamate --> A_N-Acetyl-L-glutamate + A_Coenzyme A + A_H+
 A_CU2tex	0.0001	A_Copper <=> A_Copper
 A_ALAALAr	0.0028	2.0 A_D-Alanine + A_ATP C10H12N5O13P3 <=> A_ADP C10H12N5O10P2 + A_D-Alanyl-D-alanine + A_H+ + A_Phosphate
 A_CLtex	0.0005	A_Chloride <=> A_Chloride
 A_SUCOAS	0.0525	A_ATP C10H12N5O13P3 + A_Coenzyme A + A_Succinate <=> A_ADP C10H12N5O10P2 + A_Phosphate + A_Succinyl-CoA
 A_PANTS	0.0001	A_Beta-Alanine + A_ATP C10H12N5O13P3 + A_(R)-Pantoate --> A_AMP C10H12N5O7P + A_H+ + A_(R)-Pantothenate + A_Diphosphate
-A_DHQS	6.6008	A_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate --> A_3-Dehydroquinate + A_Phosphate
+A_DHQS	0.6768	A_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate --> A_3-Dehydroquinate + A_Phosphate
 A_ADSL1r	0.0299	A_N6-(1,2-Dicarboxyethyl)-AMP <=> A_AMP C10H12N5O7P + A_Fumarate
 A_AICART	0.0543	A_10-Formyltetrahydrofolate + A_5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide <=> A_5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide + A_5,6,7,8-Tetrahydrofolate
-A_PFK	6.6709	A_ATP C10H12N5O13P3 + A_D-Fructose 6-phosphate --> A_ADP C10H12N5O10P2 + A_D-Fructose 1,6-bisphosphate + A_H+
-A_PGM	-13.2359	A_D-Glycerate 2-phosphate <=> A_3-Phospho-D-glycerate
-A_TPI	8.8247	A_Dihydroxyacetone phosphate <=> A_Glyceraldehyde 3-phosphate
-A_RPI	-2.2612	A_Alpha-D-Ribose 5-phosphate <=> A_D-Ribulose 5-phosphate
+A_PFK	1.2407	A_ATP C10H12N5O13P3 + A_D-Fructose 6-phosphate --> A_ADP C10H12N5O10P2 + A_D-Fructose 1,6-bisphosphate + A_H+
+A_PGM	-2.3754	A_D-Glycerate 2-phosphate <=> A_3-Phospho-D-glycerate
+A_TPI	1.4198	A_Dihydroxyacetone phosphate <=> A_Glyceraldehyde 3-phosphate
+A_RPI	-0.2865	A_Alpha-D-Ribose 5-phosphate <=> A_D-Ribulose 5-phosphate
 A_GLNS	0.1566	A_ATP C10H12N5O13P3 + A_L-Glutamate + A_Ammonium --> A_ADP C10H12N5O10P2 + A_L-Glutamine + A_H+ + A_Phosphate
 A_ADNK1	0.0001	A_Adenosine + A_ATP C10H12N5O13P3 --> A_ADP C10H12N5O10P2 + A_AMP C10H12N5O7P + A_H+
 A_MNtex	0.0001	A_Manganese <=> A_Manganese
@@ -366,8 +365,9 @@ A_FE2tpp	0.0016	A_Fe2+ mitochondria --> A_Fe2+ mitochondria
 A_MN2tpp	0.0001	A_Manganese --> A_Manganese
 A_CU2tpp	0.0001	A_Copper --> A_Copper
 A_MG2t3_2pp	0.0009	2.0 A_H+ + A_Magnesium <=> 2.0 A_H+ + A_Magnesium
+A_THRA	0.1663	A_L-Threonine --> A_Acetaldehyde + A_Glycine
 A_CLt3_2pp	0.0003	2.0 A_Chloride + A_H+ --> 2.0 A_Chloride + A_H+
-A_POR5	-1.8832	A_Coenzyme A + 2.0 A_Flavodoxin semi oxidized + A_Pyruvate <=> A_Acetyl-CoA + A_CO2 CO2 + 2.0 A_Flavodoxin reduced + A_H+
+A_POR5	0.0109	A_Coenzyme A + 2.0 A_Flavodoxin semi oxidized + A_Pyruvate <=> A_Acetyl-CoA + A_CO2 CO2 + 2.0 A_Flavodoxin reduced + A_H+
 A_ICYSDS	0.0001	A_L-Cysteine + A_IscS sulfur acceptor protein --> A_L-Alanine + A_IscS with bound sulfur
 A_I4FE4SR	0.0	A_Flavin adenine dinucleotide reduced + 2.0 A_H+ + A_IscU with two bound [2Fe-2S] clusters --> A_Flavin adenine dinucleotide oxidized + A_IscU with bound [4Fe-4S] cluster
 A_I2FE2SS	0.0	A_Flavin adenine dinucleotide reduced + 2.0 A_Fe2+ mitochondria + 2.0 A_IscS with bound sulfur + A_IscU scaffold protein --> A_Flavin adenine dinucleotide oxidized + 6.0 A_H+ + 2.0 A_IscS sulfur acceptor protein + A_IscU with bound [2Fe-2S] cluster
@@ -383,7 +383,7 @@ A_MECDPDH5	0.0002	A_2-C-methyl-D-erythritol 2,4-cyclodiphosphate + 2.0 A_Flavodo
 A_RNTR1c2	0.0026	A_ATP C10H12N5O13P3 + 2.0 A_Flavodoxin reduced + 2.0 A_H+ --> A_DATP C10H12N5O12P3 + 2.0 A_Flavodoxin semi oxidized + A_H2O H2O
 A_RNTR2c2	0.0027	2.0 A_Flavodoxin reduced + A_GTP C10H12N5O14P3 + 2.0 A_H+ --> A_DGTP C10H12N5O13P3 + 2.0 A_Flavodoxin semi oxidized + A_H2O H2O
 A_RNTR3c2	0.0027	A_CTP C9H12N3O14P3 + 2.0 A_Flavodoxin reduced + 2.0 A_H+ --> A_DCTP C9H12N3O13P3 + 2.0 A_Flavodoxin semi oxidized + A_H2O H2O
-A_FLDR2	1.8914	2.0 A_Flavodoxin semi oxidized + A_Nicotinamide adenine dinucleotide phosphate - reduced --> 2.0 A_Flavodoxin reduced + A_H+ + A_Nicotinamide adenine dinucleotide phosphate
+A_RNTR4c2	0.0026	2.0 A_Flavodoxin reduced + 2.0 A_H+ + A_UTP C9H11N2O15P3 --> A_DUTP C9H11N2O14P3 + 2.0 A_Flavodoxin semi oxidized + A_H2O H2O
 A_FESR	0.0008	A_[3Fe-4S] damaged iron-sulfur cluster + A_Fe2+ mitochondria --> A_[4Fe-4S] iron-sulfur cluster
 A_DHNPA2r	0.0001	A_Dihydroneopterin <=> A_6-hydroxymethyl dihydropterin + A_Glycolaldehyde
 A_AI2K	0.0	A_ATP C10H12N5O13P3 + A_4,5-dihydroxy-2,3-pentanedione --> A_ADP C10H12N5O10P2 + A_(4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione + A_H+
@@ -393,13 +393,13 @@ A_4HTHRK	0.0	A_4-Hydroxy-L-threonine + A_ATP C10H12N5O13P3 --> A_ADP C10H12N5O10
 A_4HTHRA	-0.0	A_4-Hydroxy-L-threonine <=> A_Glycolaldehyde + A_Glycine
 A_PAI2T	0.0	A_Coenzyme A + A_3-hydroxy-5-phosphonooxypentane-2,4-dione --> A_Acetyl-CoA + A_Dihydroxyacetone phosphate
 A_BIOMASS_Ec_iML1515_core_75p37M	0.1	0.000223 A_10-Formyltetrahydrofolate + 2.6e-05 A_[2Fe-2S] iron-sulfur cluster + 0.000223 A_2-Octaprenyl-6-hydroxyphenol + 0.00026 A_[4Fe-4S] iron-sulfur cluster + 0.513689 A_L-Alanine + 0.000223 A_S-Adenosyl-L-methionine + 0.295792 A_L-Arginine + 0.241055 A_L-Asparagine + 0.241055 A_L-Aspartate + 75.55223 A_ATP C10H12N5O13P3 + 2e-06 A_Biotin + 0.005205 A_Calcium + 0.005205 A_Chloride + 0.000576 A_Coenzyme A + 2.5e-05 A_Co2+ + 0.133508 A_CTP C9H12N3O14P3 + 0.000709 A_Copper + 0.09158 A_L-Cysteine + 0.026166 A_DATP C10H12N5O12P3 + 0.027017 A_DCTP C9H12N3O13P3 + 0.027017 A_DGTP C10H12N5O13P3 + 0.026166 A_DTTP C10H13N2O14P3 + 0.000223 A_Flavin adenine dinucleotide oxidized + 0.006715 A_Fe2+ mitochondria + 0.007808 A_Iron (Fe3+) + 0.26316 A_L-Glutamine + 0.26316 A_L-Glutamate + 0.612638 A_Glycine + 0.215096 A_GTP C10H12N5O14P3 + 70.028756 A_H2O H2O + 0.094738 A_L-Histidine + 0.290529 A_L-Isoleucine + 0.195193 A_Potassium + 0.019456 A_KDO(2)-lipid IV(A) + 0.450531 A_L-Leucine + 0.343161 A_L-Lysine + 0.153686 A_L-Methionine + 0.008675 A_Magnesium + 0.000223 A_5,10-Methylenetetrahydrofolate + 0.000691 A_Manganese + 7e-06 A_Molybdate + 0.013894 A_Two disacharide linked murein units, pentapeptide crosslinked tetrapeptide (A2pm->D-ala) (middle of chain) + 0.001831 A_Nicotinamide adenine dinucleotide + 0.000447 A_Nicotinamide adenine dinucleotide phosphate + 0.013013 A_Ammonium + 0.000323 A_Nickel + 0.063814 A_Phosphatidylethanolamine (dihexadecanoyl, n-C16:0) + 0.075214 A_Phosphatidylethanolamine (dihexadec-9enoyl, n-C16:1) + 0.185265 A_L-Phenylalanine + 0.000223 A_Protoheme C34H30FeN4O4 + 0.221055 A_L-Proline + 0.000223 A_Pyridoxal 5'-phosphate + 0.000223 A_Riboflavin C17H20N4O6 + 0.215792 A_L-Serine + 0.000223 A_Siroheme C42H36FeN4O16 + 0.004338 A_Sulfate + 9.8e-05 A_Succinyl-CoA + 0.000223 A_5,6,7,8-Tetrahydrofolate + 0.000223 A_Thiamine diphosphate + 0.253687 A_L-Threonine + 0.056843 A_L-Tryptophan + 0.137896 A_L-Tyrosine + 5.5e-05 A_Undecaprenyl diphosphate + 0.144104 A_UTP C9H11N2O15P3 + 0.423162 A_L-Valine + 0.000341 A_Zinc --> 75.37723 A_ADP C10H12N5O10P2 + 75.37723 A_H+ + 75.37323 A_Phosphate + 0.773903 A_Diphosphate
-A_tyr__L_c2e	-197.0601	A_L-Tyrosine <=> A_L-Tyrosine
+A_tyr__L_c2e	-78.92	A_L-Tyrosine <=> A_L-Tyrosine
 B_SHCHD2	0.0	B_Dihydrosirohydrochlorin + B_Nicotinamide adenine dinucleotide --> B_H+ + B_Nicotinamide adenine dinucleotide - reduced + B_Sirohydrochlorin
 B_CPPPGO	0.0	B_Coproporphyrinogen III + 2.0 B_H+ + B_O2 O2 --> 2.0 B_CO2 CO2 + 2.0 B_H2O H2O + B_Protoporphyrinogen IX
 B_DHORD5	0.0002	B_(S)-Dihydroorotate + B_Menaquinone 8 --> B_Menaquinol 8 + B_Orotate C5H3N2O4
 B_GLYCTO2	0.0	B_Glycolate C2H3O3 + B_Ubiquinone-8 --> B_Glyoxylate + B_Ubiquinol-8
 B_LEUTAi	0.0451	B_4-Methyl-2-oxopentanoate + B_L-Glutamate --> B_2-Oxoglutarate + B_L-Leucine
-B_SHK3Dr	0.0243	B_3-Dehydroshikimate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_Nicotinamide adenine dinucleotide phosphate + B_Shikimate
+B_SHK3Dr	5.9482	B_3-Dehydroshikimate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_Nicotinamide adenine dinucleotide phosphate + B_Shikimate
 B_G5SD	0.0221	B_L-Glutamate 5-phosphate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_L-Glutamate 5-semialdehyde + B_Nicotinamide adenine dinucleotide phosphate + B_Phosphate
 B_APRAUR	0.0	B_5-Amino-6-(5'-phosphoribosylamino)uracil + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_5-Amino-6-(5'-phosphoribitylamino)uracil + B_Nicotinamide adenine dinucleotide phosphate
 B_DB4PS	0.0001	B_D-Ribulose 5-phosphate --> B_3,4-dihydroxy-2-butanone 4-phosphate + B_Formate + B_H+
@@ -418,39 +418,36 @@ B_DHORTS	-0.0331	B_(S)-Dihydroorotate + B_H2O H2O <=> B_N-Carbamoyl-L-aspartate 
 B_OMPDC	0.0331	B_H+ + B_Orotidine 5'-phosphate --> B_CO2 CO2 + B_UMP C9H11N2O9P
 B_CS	0.1075	B_Acetyl-CoA + B_H2O H2O + B_Oxaloacetate --> B_Citrate + B_Coenzyme A + B_H+
 B_ICDHyr	0.1075	B_Isocitrate + B_Nicotinamide adenine dinucleotide phosphate <=> B_2-Oxoglutarate + B_CO2 CO2 + B_Nicotinamide adenine dinucleotide phosphate - reduced
-B_ACALD	2.9481	B_Acetaldehyde + B_Coenzyme A + B_Nicotinamide adenine dinucleotide <=> B_Acetyl-CoA + B_H+ + B_Nicotinamide adenine dinucleotide - reduced
 B_PPA	13.4122	B_H2O H2O + B_Diphosphate --> B_H+ + 2.0 B_Phosphate
 B_ALAR	0.0042	B_L-Alanine <=> B_D-Alanine
 B_ALATA_L	-0.0582	B_2-Oxoglutarate + B_L-Alanine <=> B_L-Glutamate + B_Pyruvate
-B_PPM	-9.4971	B_Alpha-D-Ribose 1-phosphate <=> B_Alpha-D-Ribose 5-phosphate
-B_ASPTA	-0.4591	B_2-Oxoglutarate + B_L-Aspartate <=> B_L-Glutamate + B_Oxaloacetate
+B_PPM	-6.5489	B_Alpha-D-Ribose 1-phosphate <=> B_Alpha-D-Ribose 5-phosphate
+B_ASPTA	-2.4291	B_2-Oxoglutarate + B_L-Aspartate <=> B_L-Glutamate + B_Oxaloacetate
 B_A5PISO	0.0039	B_D-Ribulose 5-phosphate <=> B_D-Arabinose 5-phosphate
 B_IPPMIb	-0.0451	B_2-Isopropylmaleate + B_H2O H2O <=> B_3-Carboxy-3-hydroxy-4-methylpentanoate
 B_ACHBS	0.0291	B_2-Oxobutanoate + B_H+ + B_Pyruvate --> B_(S)-2-Aceto-2-hydroxybutanoate + B_CO2 CO2
 B_ACLS	0.0874	B_H+ + 2.0 B_Pyruvate --> B_(S)-2-Acetolactate + B_CO2 CO2
-B_PSCVT	0.0243	B_Phosphoenolpyruvate + B_Shikimate 5-phosphate <=> B_5-O-(1-Carboxyvinyl)-3-phosphoshikimate + B_Phosphate
+B_PSCVT	5.9482	B_Phosphoenolpyruvate + B_Shikimate 5-phosphate <=> B_5-O-(1-Carboxyvinyl)-3-phosphoshikimate + B_Phosphate
 B_ANS	0.0057	B_Chorismate + B_L-Glutamine --> B_Anthranilate + B_L-Glutamate + B_H+ + B_Pyruvate
 B_ANPRT	0.0057	B_Anthranilate + B_5-Phospho-alpha-D-ribose 1-diphosphate --> B_Diphosphate + B_N-(5-Phospho-D-ribosyl)anthranilate
-B_CHORM	0.0185	B_Chorismate --> B_Prephenate
-B_CHORS	0.0243	B_5-O-(1-Carboxyvinyl)-3-phosphoshikimate --> B_Chorismate + B_Phosphate
+B_CHORM	5.9424	B_Chorismate --> B_Prephenate
+B_CHORS	5.9482	B_5-O-(1-Carboxyvinyl)-3-phosphoshikimate --> B_Chorismate + B_Phosphate
 B_IGPS	0.0057	B_1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate + B_H+ --> B_C'-(3-Indolyl)-glycerol 3-phosphate + B_CO2 CO2 + B_H2O H2O
-B_ENO	11.2198	B_D-Glycerate 2-phosphate <=> B_H2O H2O + B_Phosphoenolpyruvate
-B_FBA	0.7996	B_D-Fructose 1,6-bisphosphate <=> B_Dihydroxyacetone phosphate + B_Glyceraldehyde 3-phosphate
-B_PGI	8.8867	B_D-Glucose 6-phosphate <=> B_D-Fructose 6-phosphate
-B_PGK	-11.2198	B_3-Phospho-D-glycerate + B_ATP C10H12N5O13P3 <=> B_3-Phospho-D-glyceroyl phosphate + B_ADP C10H12N5O10P2
-B_RPE	-6.4043	B_D-Ribulose 5-phosphate <=> B_D-Xylulose 5-phosphate
-B_TALA	-3.19	B_Glyceraldehyde 3-phosphate + B_Sedoheptulose 7-phosphate <=> B_D-Erythrose 4-phosphate + B_D-Fructose 6-phosphate
-B_TKT1	-3.19	B_Alpha-D-Ribose 5-phosphate + B_D-Xylulose 5-phosphate <=> B_Glyceraldehyde 3-phosphate + B_Sedoheptulose 7-phosphate
+B_ENO	24.0458	B_D-Glycerate 2-phosphate <=> B_H2O H2O + B_Phosphoenolpyruvate
+B_FBA	11.8432	B_D-Fructose 1,6-bisphosphate <=> B_Dihydroxyacetone phosphate + B_Glyceraldehyde 3-phosphate
+B_PGI	18.2662	B_D-Glucose 6-phosphate <=> B_D-Fructose 6-phosphate
+B_PGK	-24.0458	B_3-Phospho-D-glycerate + B_ATP C10H12N5O13P3 <=> B_3-Phospho-D-glyceroyl phosphate + B_ADP C10H12N5O10P2
+B_RPE	-6.4135	B_D-Ribulose 5-phosphate <=> B_D-Xylulose 5-phosphate
+B_TALA	-0.2326	B_Glyceraldehyde 3-phosphate + B_Sedoheptulose 7-phosphate <=> B_D-Erythrose 4-phosphate + B_D-Fructose 6-phosphate
+B_TKT1	-0.2326	B_Alpha-D-Ribose 5-phosphate + B_D-Xylulose 5-phosphate <=> B_Glyceraldehyde 3-phosphate + B_Sedoheptulose 7-phosphate
 B_FMNAT	0.0	B_ATP C10H12N5O13P3 + B_FMN C17H19N4O9P + B_H+ --> B_Flavin adenine dinucleotide oxidized + B_Diphosphate
-B_NDPK8	-2.9481	B_ATP C10H12N5O13P3 + B_DADP C10H12N5O9P2 <=> B_ADP C10H12N5O10P2 + B_DATP C10H12N5O12P3
-B_TRPAS2	-0.0057	B_H2O H2O + B_L-Tryptophan <=> B_Indole + B_Ammonium + B_Pyruvate
 B_PMDPHT	0.0	B_5-Amino-6-(5'-phosphoribitylamino)uracil + B_H2O H2O --> B_4-(1-D-Ribitylamino)-5-aminouracil + B_Phosphate
 B_ILETA	-0.0291	B_2-Oxoglutarate + B_L-Isoleucine <=> B_(S)-3-Methyl-2-oxopentanoate + B_L-Glutamate
 B_VALTA	-0.0423	B_2-Oxoglutarate + B_L-Valine <=> B_3-Methyl-2-oxobutanoate + B_L-Glutamate
 B_ORPT	-0.0331	B_Orotidine 5'-phosphate + B_Diphosphate <=> B_Orotate C5H3N2O4 + B_5-Phospho-alpha-D-ribose 1-diphosphate
 B_RBFSa	0.0001	B_4-(1-D-Ribitylamino)-5-aminouracil + B_3,4-dihydroxy-2-butanone 4-phosphate --> B_6,7-Dimethyl-8-(1-D-ribityl)lumazine + 2.0 B_H2O H2O + B_Phosphate
 B_DHAD2	0.0291	B_(R)-2,3-Dihydroxy-3-methylpentanoate --> B_(S)-3-Methyl-2-oxopentanoate + B_H2O H2O
-B_PFL	6.726	B_Coenzyme A + B_Pyruvate --> B_Acetyl-CoA + B_Formate
+B_PFL	8.6961	B_Coenzyme A + B_Pyruvate --> B_Acetyl-CoA + B_Formate
 B_PTAr	-0.0582	B_Acetyl-CoA + B_Phosphate <=> B_Acetyl phosphate + B_Coenzyme A
 B_ACKr	0.0582	B_Acetate + B_ATP C10H12N5O13P3 <=> B_Acetyl phosphate + B_ADP C10H12N5O10P2
 B_MOAT	0.0019	B_CMP-3-deoxy-D-manno-octulosonate + B_2,3,2'3'-Tetrakis(beta-hydroxymyristoyl)-D-glucosaminyl-1,6-beta-D-glucosamine 1,4'-bisphosphate --> B_CMP C9H12N3O8P + B_H+ + B_KDO-lipid IV(A)
@@ -463,9 +460,8 @@ B_AIRC3	-0.0448	B_5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate <=> B_5
 B_ADSL2r	0.0448	B_(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate <=> B_5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide + B_Fumarate
 B_TMDS	0.0026	B_DUMP C9H11N2O8P + B_5,10-Methylenetetrahydrofolate --> B_7,8-Dihydrofolate + B_DTMP C10H13N2O8P
 B_PPCDC	0.0001	B_N-((R)-4-Phosphopantothenoyl)-L-cysteine + B_H+ --> B_CO2 CO2 + B_Pantetheine 4'-phosphate
-B_DHQTi	0.0243	B_3-Dehydroquinate --> B_3-Dehydroshikimate + B_H2O H2O
-B_PUNP1	-9.4971	B_Adenosine + B_Phosphate <=> B_Adenine + B_Alpha-D-Ribose 1-phosphate
-B_PUNP2	2.9481	B_Deoxyadenosine + B_Phosphate <=> B_2-Deoxy-D-ribose 1-phosphate + B_Adenine
+B_DHQTi	5.9482	B_3-Dehydroquinate --> B_3-Dehydroshikimate + B_H2O H2O
+B_PUNP1	-6.5489	B_Adenosine + B_Phosphate <=> B_Adenine + B_Alpha-D-Ribose 1-phosphate
 B_DHAD1	0.0874	B_(R)-2,3-Dihydroxy-3-methylbutanoate --> B_3-Methyl-2-oxobutanoate + B_H2O H2O
 B_IPPMIa	-0.0451	B_3-Carboxy-2-hydroxy-4-methylpentanoate <=> B_2-Isopropylmaleate + B_H2O H2O
 B_MDH	0.1043	B_L-Malate + B_Nicotinamide adenine dinucleotide <=> B_H+ + B_Nicotinamide adenine dinucleotide - reduced + B_Oxaloacetate
@@ -484,32 +480,34 @@ B_HPPK2	0.0001	B_6-hydroxymethyl dihydropterin + B_ATP C10H12N5O13P3 --> B_6-hyd
 B_PTPATi	0.0001	B_ATP C10H12N5O13P3 + B_H+ + B_Pantetheine 4'-phosphate --> B_Dephospho-CoA + B_Diphosphate
 B_DXPRIi	0.0002	B_1-deoxy-D-xylulose 5-phosphate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_2-C-methyl-D-erythritol 4-phosphate + B_Nicotinamide adenine dinucleotide phosphate
 B_OPHBDC	0.0	B_3-Octaprenyl-4-hydroxybenzoate + B_H+ --> B_2-Octaprenylphenol + B_CO2 CO2
-B_GHMT2r	-0.0602	B_L-Serine + B_5,6,7,8-Tetrahydrofolate <=> B_Glycine + B_H2O H2O + B_5,10-Methylenetetrahydrofolate
+B_GHMT2r	-2.0303	B_L-Serine + B_5,6,7,8-Tetrahydrofolate <=> B_Glycine + B_H2O H2O + B_5,10-Methylenetetrahydrofolate
 B_DHORD2	0.0329	B_(S)-Dihydroorotate + B_Ubiquinone-8 --> B_Orotate C5H3N2O4 + B_Ubiquinol-8
-B_THRD	0.1663	B_Nicotinamide adenine dinucleotide + B_L-Threonine --> B_L-2-Amino-3-oxobutanoate + B_H+ + B_Nicotinamide adenine dinucleotide - reduced
+B_SERD_L	1.9644	B_L-Serine --> B_Ammonium + B_Pyruvate
+B_THRD	2.1364	B_Nicotinamide adenine dinucleotide + B_L-Threonine --> B_L-2-Amino-3-oxobutanoate + B_H+ + B_Nicotinamide adenine dinucleotide - reduced
 B_KARA1	-0.0874	B_(R)-2,3-Dihydroxy-3-methylbutanoate + B_Nicotinamide adenine dinucleotide phosphate <=> B_(S)-2-Acetolactate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced
 B_KARA2	0.0291	B_(S)-2-Aceto-2-hydroxybutanoate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced <=> B_(R)-2,3-Dihydroxy-3-methylpentanoate + B_Nicotinamide adenine dinucleotide phosphate
 B_ACCOAC	19.8879	B_Acetyl-CoA + B_ATP C10H12N5O13P3 + B_Bicarbonate --> B_ADP C10H12N5O10P2 + B_H+ + B_Malonyl CoA C24H33N7O19P3S + B_Phosphate
 B_NADK	0.0	B_ATP C10H12N5O13P3 + B_Nicotinamide adenine dinucleotide --> B_ADP C10H12N5O10P2 + B_H+ + B_Nicotinamide adenine dinucleotide phosphate
-B_NTD6	2.9481	B_DAMP C10H12N5O6P + B_H2O H2O --> B_Deoxyadenosine + B_Phosphate
 B_DXPS	0.0003	B_Glyceraldehyde 3-phosphate + B_H+ + B_Pyruvate --> B_CO2 CO2 + B_1-deoxy-D-xylulose 5-phosphate
 B_CDPMEK	0.0002	B_4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol + B_ATP C10H12N5O13P3 --> B_2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol + B_ADP C10H12N5O10P2 + B_H+
 B_MECDPS	0.0002	B_2-phospho-4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol --> B_2-C-methyl-D-erythritol 2,4-cyclodiphosphate + B_CMP C9H12N3O8P
-B_PPC	0.4623	B_CO2 CO2 + B_H2O H2O + B_Phosphoenolpyruvate --> B_H+ + B_Oxaloacetate + B_Phosphate
+B_PPC	2.4324	B_CO2 CO2 + B_H2O H2O + B_Phosphoenolpyruvate --> B_H+ + B_Oxaloacetate + B_Phosphate
 B_GTPCII2	0.0	B_GTP C10H12N5O14P3 + 3.0 B_H2O H2O --> B_2,5-Diamino-6-(ribosylamino)-4-(3H)-pyrimidinone 5'-phosphate + B_Formate + 2.0 B_H+ + B_Diphosphate
 B_SADT2	0.0247	B_ATP C10H12N5O13P3 + B_GTP C10H12N5O14P3 + B_H2O H2O + B_Sulfate --> B_Adenosine 5'-phosphosulfate + B_GDP C10H12N5O11P2 + B_Phosphate + B_Diphosphate
 B_GLXCL	0.0	2.0 B_Glyoxylate + B_H+ --> B_2-Hydroxy-3-oxopropanoate + B_CO2 CO2
 B_NNDPR	0.0002	2.0 B_H+ + B_5-Phospho-alpha-D-ribose 1-diphosphate + B_Quinolinate --> B_CO2 CO2 + B_Nicotinate D-ribonucleotide + B_Diphosphate
 B_SDPDS	0.0371	B_H2O H2O + B_N-Succinyl-LL-2,6-diaminoheptanedioate --> B_LL-2,6-Diaminoheptanedioate + B_Succinate
-B_ADK1	16.2726	B_AMP C10H12N5O7P + B_ATP C10H12N5O13P3 <=> 2.0 B_ADP C10H12N5O10P2
+B_ADK1	13.3244	B_AMP C10H12N5O7P + B_ATP C10H12N5O13P3 <=> 2.0 B_ADP C10H12N5O10P2
 B_OCTDPS	0.0	B_Farnesyl diphosphate + 5.0 B_Isopentenyl diphosphate --> B_All-trans-Octaprenyl diphosphate + 5.0 B_Diphosphate
 B_UDCPDP	0.0028	B_H2O H2O + B_Undecaprenyl diphosphate --> B_H+ + B_Phosphate + B_Undecaprenyl phosphate
 B_CYTK1	0.0181	B_ATP C10H12N5O13P3 + B_CMP C9H12N3O8P <=> B_ADP C10H12N5O10P2 + B_CDP C9H12N3O11P2
 B_GK1	0.0243	B_ATP C10H12N5O13P3 + B_GMP C10H12N5O8P <=> B_ADP C10H12N5O10P2 + B_GDP C10H12N5O11P2
 B_UAPGR	0.0028	B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced + B_UDP-N-acetyl-3-O-(1-carboxyvinyl)-D-glucosamine --> B_Nicotinamide adenine dinucleotide phosphate + B_UDP-N-acetylmuramate
-B_GLYAT	-0.1663	B_Acetyl-CoA + B_Glycine <=> B_L-2-Amino-3-oxobutanoate + B_Coenzyme A
-B_TRPS3	0.0057	B_C'-(3-Indolyl)-glycerol 3-phosphate --> B_Glyceraldehyde 3-phosphate + B_Indole
+B_GLYAT	-2.1364	B_Acetyl-CoA + B_Glycine <=> B_L-2-Amino-3-oxobutanoate + B_Coenzyme A
 B_FADRx	0.0001	B_Flavin adenine dinucleotide oxidized + B_H+ + B_Nicotinamide adenine dinucleotide - reduced --> B_Flavin adenine dinucleotide reduced + B_Nicotinamide adenine dinucleotide
+B_NDPK2	0.0425	B_ATP C10H12N5O13P3 + B_UDP C9H11N2O12P2 <=> B_ADP C10H12N5O10P2 + B_UTP C9H11N2O15P3
+B_NDPK3	0.0181	B_ATP C10H12N5O13P3 + B_CDP C9H12N3O11P2 <=> B_ADP C10H12N5O10P2 + B_CTP C9H12N3O14P3
+B_NDPK4	0.0026	B_ATP C10H12N5O13P3 + B_DTDP C10H13N2O11P2 <=> B_ADP C10H12N5O10P2 + B_DTTP C10H13N2O14P3
 B_FCLT	0.0	B_Fe2+ mitochondria + B_Protoporphyrin --> 2.0 B_H+ + B_Protoheme C34H30FeN4O4
 B_HBZOPT	0.0	B_4-Hydroxybenzoate + B_All-trans-Octaprenyl diphosphate --> B_3-Octaprenyl-4-hydroxybenzoate + B_Diphosphate
 B_PNTK	0.0001	B_ATP C10H12N5O13P3 + B_(R)-Pantothenate --> B_D-4'-Phosphopantothenate + B_ADP C10H12N5O10P2 + B_H+
@@ -517,16 +515,15 @@ B_DPCOAK	0.0001	B_ATP C10H12N5O13P3 + B_Dephospho-CoA --> B_ADP C10H12N5O10P2 + 
 B_KDOPS	0.0039	B_D-Arabinose 5-phosphate + B_H2O H2O + B_Phosphoenolpyruvate --> B_3-Deoxy-D-manno-octulosonate 8-phosphate + B_Phosphate
 B_KDOPP	0.0039	B_H2O H2O + B_3-Deoxy-D-manno-octulosonate 8-phosphate --> B_3-Deoxy-D-manno-2-octulosonate + B_Phosphate
 B_DTMPK	0.0026	B_ATP C10H12N5O13P3 + B_DTMP C10H13N2O8P <=> B_ADP C10H12N5O10P2 + B_DTDP C10H13N2O11P2
+B_NDPK1	0.079	B_ATP C10H12N5O13P3 + B_GDP C10H12N5O11P2 <=> B_ADP C10H12N5O10P2 + B_GTP C10H12N5O14P3
 B_TRDR	0.0247	B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced + B_Oxidized thioredoxin --> B_Nicotinamide adenine dinucleotide phosphate + B_Reduced thioredoxin
 B_RHCCE	6.5489	B_S-Ribosyl-L-homocysteine --> B_4,5-dihydroxy-2,3-pentanedione + B_L-Homocysteine
 B_ADCS	0.0001	B_Chorismate + B_L-Glutamine --> B_4-amino-4-deoxychorismate + B_L-Glutamate
 B_ADCL	0.0001	B_4-amino-4-deoxychorismate --> B_4-Aminobenzoate + B_H+ + B_Pyruvate
-B_DHAPT	1.6733	B_Dihydroxyacetone + B_Phosphoenolpyruvate --> B_Dihydroxyacetone phosphate + B_Pyruvate
 B_UMPK	0.0378	B_ATP C10H12N5O13P3 + B_UMP C9H11N2O9P <=> B_ADP C10H12N5O10P2 + B_UDP C9H11N2O12P2
 B_CTPS2	0.0161	B_ATP C10H12N5O13P3 + B_L-Glutamine + B_H2O H2O + B_UTP C9H11N2O15P3 --> B_ADP C10H12N5O10P2 + B_CTP C9H12N3O14P3 + B_L-Glutamate + 2.0 B_H+ + B_Phosphate
 B_PAPPT3	0.0028	B_Undecaprenyl phosphate + B_UDP-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine --> B_Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine + B_UMP C9H11N2O9P
 B_UAGPT3	0.0028	B_UDP-N-acetyl-D-glucosamine + B_Undecaprenyl-diphospho-N-acetylmuramoyl-L-alanyl-D-glutamyl-meso-2,6-diaminopimeloyl-D-alanyl-D-alanine --> B_H+ + B_Undecaprenyl-diphospho-N-acetylmuramoyl-(N-acetylglucosamine)-L-ala-D-glu-meso-2,6-diaminopimeloyl-D-ala-D-ala + B_UDP C9H11N2O12P2
-B_F6PA	1.6733	B_D-Fructose 6-phosphate <=> B_Dihydroxyacetone + B_Glyceraldehyde 3-phosphate
 B_ACODA	0.0296	B_N2-Acetyl-L-ornithine + B_H2O H2O --> B_Acetate + B_Ornithine
 B_ADSS	0.0299	B_L-Aspartate + B_GTP C10H12N5O14P3 + B_IMP C10H11N4O8P --> B_N6-(1,2-Dicarboxyethyl)-AMP + B_GDP C10H12N5O11P2 + 2.0 B_H+ + B_Phosphate
 B_ASNS2	0.0241	B_L-Aspartate + B_ATP C10H12N5O13P3 + B_Ammonium --> B_AMP C10H12N5O7P + B_L-Asparagine + B_H+ + B_Diphosphate
@@ -536,12 +533,12 @@ B_MCOATA	0.2413	B_Acyl carrier protein + B_Malonyl CoA C24H33N7O19P3S <=> B_Coen
 B_IPDPS	0.0002	B_1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate + B_H+ + B_Nicotinamide adenine dinucleotide - reduced --> B_H2O H2O + B_Isopentenyl diphosphate + B_Nicotinamide adenine dinucleotide
 B_DAPE	0.0371	B_LL-2,6-Diaminoheptanedioate <=> B_Meso-2,6-Diaminoheptanedioate
 B_DHDPRy	0.0371	B_2,3-Dihydrodipicolinate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_Nicotinamide adenine dinucleotide phosphate + B_2,3,4,5-Tetrahydrodipicolinate
-B_HSK	0.2207	B_ATP C10H12N5O13P3 + B_L-Homoserine --> B_ADP C10H12N5O10P2 + B_H+ + B_O-Phospho-L-homoserine
+B_HSK	2.1908	B_ATP C10H12N5O13P3 + B_L-Homoserine --> B_ADP C10H12N5O10P2 + B_H+ + B_O-Phospho-L-homoserine
 B_SDPTA	-0.0371	B_2-Oxoglutarate + B_N-Succinyl-LL-2,6-diaminoheptanedioate <=> B_L-Glutamate + B_N-Succinyl-2-L-amino-6-oxoheptanedioate
-B_THRS	0.2207	B_H2O H2O + B_O-Phospho-L-homoserine --> B_Phosphate + B_L-Threonine
+B_THRS	2.1908	B_H2O H2O + B_O-Phospho-L-homoserine --> B_Phosphate + B_L-Threonine
 B_HSST	0.0154	B_L-Homoserine + B_Succinyl-CoA --> B_Coenzyme A + B_O-Succinyl-L-homoserine
 B_PPNDH	0.0185	B_H+ + B_Prephenate --> B_CO2 CO2 + B_H2O H2O + B_Phenylpyruvate
-B_DDPA	0.0243	B_D-Erythrose 4-phosphate + B_H2O H2O + B_Phosphoenolpyruvate --> B_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate + B_Phosphate
+B_DDPA	5.9482	B_D-Erythrose 4-phosphate + B_H2O H2O + B_Phosphoenolpyruvate --> B_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate + B_Phosphate
 B_G3PD2	-0.0139	B_Glycerol 3-phosphate + B_Nicotinamide adenine dinucleotide phosphate <=> B_Dihydroxyacetone phosphate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced
 B_U23GAAT	0.0039	B_(R)-3-Hydroxytetradecanoyl-[acyl-carrier protein] + B_UDP-3-O-(3-hydroxytetradecanoyl)-D-glucosamine --> B_Acyl carrier protein + B_H+ + B_UDP-2,3-bis(3-hydroxytetradecanoyl)glucosamine
 B_UAAGDS	0.0028	B_Meso-2,6-Diaminoheptanedioate + B_ATP C10H12N5O13P3 + B_UDP-N-acetylmuramoyl-L-alanyl-D-glutamate --> B_ADP C10H12N5O10P2 + B_H+ + B_Phosphate + B_UDP-N-acetylmuramoyl-L-alanyl-D-gamma-glutamyl-meso-2,6-diaminopimelate
@@ -561,8 +558,8 @@ B_SERAT	0.0247	B_Acetyl-CoA + B_L-Serine <=> B_O-Acetyl-L-serine + B_Coenzyme A
 B_CYSS	0.0247	B_O-Acetyl-L-serine + B_Hydrogen sulfide --> B_Acetate + B_L-Cysteine + B_H+
 B_BPNT	0.0247	B_H2O H2O + B_Adenosine 3',5'-bisphosphate --> B_AMP C10H12N5O7P + B_Phosphate
 B_PAPSR	0.0247	B_3'-Phosphoadenylyl sulfate + B_Reduced thioredoxin --> 2.0 B_H+ + B_Adenosine 3',5'-bisphosphate + B_Sulfite + B_Oxidized thioredoxin
-B_ASPK	0.2732	B_L-Aspartate + B_ATP C10H12N5O13P3 <=> B_4-Phospho-L-aspartate + B_ADP C10H12N5O10P2
-B_ASAD	-0.2732	B_L-Aspartate 4-semialdehyde + B_Nicotinamide adenine dinucleotide phosphate + B_Phosphate <=> B_4-Phospho-L-aspartate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced
+B_ASPK	2.2433	B_L-Aspartate + B_ATP C10H12N5O13P3 <=> B_4-Phospho-L-aspartate + B_ADP C10H12N5O10P2
+B_ASAD	-2.2433	B_L-Aspartate 4-semialdehyde + B_Nicotinamide adenine dinucleotide phosphate + B_Phosphate <=> B_4-Phospho-L-aspartate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced
 B_DAPDC	0.0343	B_Meso-2,6-Diaminoheptanedioate + B_H+ --> B_CO2 CO2 + B_L-Lysine
 B_METAT	6.5489	B_ATP C10H12N5O13P3 + B_H2O H2O + B_L-Methionine --> B_S-Adenosyl-L-methionine + B_Phosphate + B_Diphosphate
 B_TMPK	0.0	B_ATP C10H12N5O13P3 + B_Thiamin monophosphate --> B_ADP C10H12N5O10P2 + B_Thiamine diphosphate
@@ -571,7 +568,8 @@ B_SULR	0.0247	5.0 B_H+ + 3.0 B_Nicotinamide adenine dinucleotide phosphate - red
 B_CBMKr	0.0627	B_ATP C10H12N5O13P3 + B_CO2 CO2 + B_Ammonium <=> B_ADP C10H12N5O10P2 + B_Carbamoyl phosphate + 2.0 B_H+
 B_NNATr	0.0002	B_ATP C10H12N5O13P3 + B_H+ + B_Nicotinate D-ribonucleotide <=> B_Deamino-NAD+ + B_Diphosphate
 B_AIRC2	0.0448	B_5-amino-1-(5-phospho-D-ribosyl)imidazole + B_ATP C10H12N5O13P3 + B_Bicarbonate --> B_5-phosphoribosyl-5-carboxyaminoimidazole + B_ADP C10H12N5O10P2 + B_H+ + B_Phosphate
-B_GAPD	11.2198	B_Glyceraldehyde 3-phosphate + B_Nicotinamide adenine dinucleotide + B_Phosphate <=> B_3-Phospho-D-glyceroyl phosphate + B_H+ + B_Nicotinamide adenine dinucleotide - reduced
+B_GAPD	24.0458	B_Glyceraldehyde 3-phosphate + B_Nicotinamide adenine dinucleotide + B_Phosphate <=> B_3-Phospho-D-glyceroyl phosphate + B_H+ + B_Nicotinamide adenine dinucleotide - reduced
+B_HEX1	8.5559	B_ATP C10H12N5O13P3 + B_D-Glucose --> B_ADP C10H12N5O10P2 + B_D-Glucose 6-phosphate + B_H+
 B_ARGSL	0.0296	B_N(omega)-(L-Arginino)succinate <=> B_L-Arginine + B_Fumarate
 B_GLU5K	0.0221	B_ATP C10H12N5O13P3 + B_L-Glutamate --> B_ADP C10H12N5O10P2 + B_L-Glutamate 5-phosphate
 B_IPPS	0.0451	B_3-Methyl-2-oxobutanoate + B_Acetyl-CoA + B_H2O H2O --> B_3-Carboxy-3-hydroxy-4-methylpentanoate + B_Coenzyme A + B_H+
@@ -588,6 +586,8 @@ B_GLUPRT	0.0448	B_L-Glutamine + B_H2O H2O + B_5-Phospho-alpha-D-ribose 1-diphosp
 B_NADS1	0.0002	B_ATP C10H12N5O13P3 + B_Deamino-NAD+ + B_Ammonium --> B_AMP C10H12N5O7P + B_H+ + B_Nicotinamide adenine dinucleotide + B_Diphosphate
 B_OCBT	0.0296	B_Carbamoyl phosphate + B_Ornithine <=> B_L-Citrulline + B_H+ + B_Phosphate
 B_PHETA1	-0.0185	B_2-Oxoglutarate + B_L-Phenylalanine <=> B_L-Glutamate + B_Phenylpyruvate
+B_PPND	5.9239	B_Nicotinamide adenine dinucleotide + B_Prephenate --> B_3-(4-Hydroxyphenyl)pyruvate + B_CO2 CO2 + B_Nicotinamide adenine dinucleotide - reduced
+B_TRPS1	0.0057	B_C'-(3-Indolyl)-glycerol 3-phosphate + B_L-Serine --> B_Glyceraldehyde 3-phosphate + B_H2O H2O + B_L-Tryptophan
 B_PRAMPC	0.0095	B_H2O H2O + B_1-(5-Phosphoribosyl)-AMP --> B_1-(5-Phosphoribosyl)-5-[(5-phosphoribosylamino)methylideneamino]imidazole-4-carboxamide
 B_ACOTA	-0.0296	B_N2-Acetyl-L-ornithine + B_2-Oxoglutarate <=> B_N-Acetyl-L-glutamate 5-semialdehyde + B_L-Glutamate
 B_PDX5PS	0.0	B_1-deoxy-D-xylulose 5-phosphate + B_Nicotinamide adenine dinucleotide + B_O-Phospho-4-hydroxy-L-threonine --> B_CO2 CO2 + 2.0 B_H2O H2O + B_H+ + B_Nicotinamide adenine dinucleotide - reduced + B_Pyridoxine 5'-phosphate + B_Phosphate
@@ -595,89 +595,88 @@ B_PPBNGS	0.0002	2.0 B_5-Amino-4-oxopentanoate --> 2.0 B_H2O H2O + B_H+ + B_Porph
 B_PPNCL2	0.0001	B_D-4'-Phosphopantothenate + B_CTP C9H12N3O14P3 + B_L-Cysteine --> B_N-((R)-4-Phosphopantothenoyl)-L-cysteine + B_CMP C9H12N3O8P + B_H+ + B_Diphosphate
 B_PRAGSr	0.0448	B_ATP C10H12N5O13P3 + B_Glycine + B_5-Phospho-beta-D-ribosylamine <=> B_ADP C10H12N5O10P2 + B_N1-(5-Phospho-D-ribosyl)glycinamide + B_H+ + B_Phosphate
 B_PRFGS	0.0448	B_ATP C10H12N5O13P3 + B_N2-Formyl-N1-(5-phospho-D-ribosyl)glycinamide + B_L-Glutamine + B_H2O H2O --> B_ADP C10H12N5O10P2 + B_2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine + B_L-Glutamate + B_H+ + B_Phosphate
-B_PPM2	2.9481	B_2-Deoxy-D-ribose 1-phosphate <=> B_2-Deoxy-D-ribose 5-phosphate
 B_MOAT2	0.0019	B_CMP-3-deoxy-D-manno-octulosonate + B_KDO-lipid IV(A) --> B_CMP C9H12N3O8P + B_H+ + B_KDO(2)-lipid IV(A)
 B_MOHMT	0.0001	B_3-Methyl-2-oxobutanoate + B_H2O H2O + B_5,10-Methylenetetrahydrofolate --> B_2-Dehydropantoate + B_5,6,7,8-Tetrahydrofolate
 B_GMPS	0.0243	B_ATP C10H12N5O13P3 + B_Ammonium + B_Xanthosine 5'-phosphate --> B_AMP C10H12N5O7P + B_GMP C10H12N5O8P + 2.0 B_H+ + B_Diphosphate
-B_FTHFLi	6.6815	B_ATP C10H12N5O13P3 + B_Formate + B_5,6,7,8-Tetrahydrofolate --> B_10-Formyltetrahydrofolate + B_ADP C10H12N5O10P2 + B_Phosphate
+B_FTHFLi	8.6515	B_ATP C10H12N5O13P3 + B_Formate + B_5,6,7,8-Tetrahydrofolate --> B_10-Formyltetrahydrofolate + B_ADP C10H12N5O10P2 + B_Phosphate
 B_CHRPL	0.0	B_Chorismate --> B_4-Hydroxybenzoate + B_Pyruvate
 B_PMPK	0.0	B_4-Amino-2-methyl-5-phosphomethylpyrimidine + B_ATP C10H12N5O13P3 --> B_2-Methyl-4-amino-5-hydroxymethylpyrimidine diphosphate + B_ADP C10H12N5O10P2
 B_ADSK	0.0247	B_Adenosine 5'-phosphosulfate + B_ATP C10H12N5O13P3 --> B_ADP C10H12N5O10P2 + B_H+ + B_3'-Phosphoadenylyl sulfate
-B_HSDy	-0.2361	B_L-Homoserine + B_Nicotinamide adenine dinucleotide phosphate <=> B_L-Aspartate 4-semialdehyde + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced
+B_HSDy	-2.2062	B_L-Homoserine + B_Nicotinamide adenine dinucleotide phosphate <=> B_L-Aspartate 4-semialdehyde + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced
 B_CYSTL	0.0154	B_L-Cystathionine + B_H2O H2O --> B_L-Homocysteine + B_Ammonium + B_Pyruvate
 B_SHSL1	0.0154	B_L-Cysteine + B_O-Succinyl-L-homoserine --> B_L-Cystathionine + B_H+ + B_Succinate
-B_Htex	5.6438	B_H+ <=> B_H+
-B_H2Otex	-32.2649	B_H2O H2O <=> B_H2O H2O
+B_Htex	-0.2801	B_H+ <=> B_H+
+B_H2Otex	-64.8464	B_H2O H2O <=> B_H2O H2O
 B_O2tpp	0.0169	B_O2 O2 <=> B_O2 O2
-B_THD2pp	8.4771	2.0 B_H+ + B_Nicotinamide adenine dinucleotide - reduced + B_Nicotinamide adenine dinucleotide phosphate --> 2.0 B_H+ + B_Nicotinamide adenine dinucleotide + B_Nicotinamide adenine dinucleotide phosphate - reduced
+B_THD2pp	28.2051	2.0 B_H+ + B_Nicotinamide adenine dinucleotide - reduced + B_Nicotinamide adenine dinucleotide phosphate --> 2.0 B_H+ + B_Nicotinamide adenine dinucleotide + B_Nicotinamide adenine dinucleotide phosphate - reduced
 B_Kt2pp	0.0195	B_H+ + B_Potassium --> B_H+ + B_Potassium
-B_TYRt2rpp	-309.5915	B_H+ + B_L-Tyrosine <=> B_H+ + B_L-Tyrosine
+B_TYRt2rpp	-426.7342	B_H+ + B_L-Tyrosine <=> B_H+ + B_L-Tyrosine
 B_GTPCI	0.0001	B_GTP C10H12N5O14P3 + B_H2O H2O --> B_2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate + B_Formate + B_H+
-B_DRPA	2.9481	B_2-Deoxy-D-ribose 5-phosphate --> B_Acetaldehyde + B_Glyceraldehyde 3-phosphate
-B_TKT2	-3.2143	B_D-Erythrose 4-phosphate + B_D-Xylulose 5-phosphate <=> B_D-Fructose 6-phosphate + B_Glyceraldehyde 3-phosphate
-B_CO2tpp	-3.4978	B_CO2 CO2 <=> B_CO2 CO2
+B_TKT2	-6.1809	B_D-Erythrose 4-phosphate + B_D-Xylulose 5-phosphate <=> B_D-Fructose 6-phosphate + B_Glyceraldehyde 3-phosphate
+B_CO2tpp	-6.4598	B_CO2 CO2 <=> B_CO2 CO2
 B_Ktex	0.0195	B_Potassium <=> B_Potassium
 B_ACt2rpp	-0.0005	B_Acetate + B_H+ <=> B_Acetate + B_H+
-B_ATPS4rpp	74.5683	B_ADP C10H12N5O10P2 + 4.0 B_H+ + B_Phosphate <=> B_ATP C10H12N5O13P3 + B_H2O H2O + 3.0 B_H+
+B_ATPS4rpp	90.37	B_ADP C10H12N5O10P2 + 4.0 B_H+ + B_Phosphate <=> B_ATP C10H12N5O13P3 + B_H2O H2O + 3.0 B_H+
 B_ACt4pp	0.0005	B_Acetate + B_Sodium --> B_Acetate + B_Sodium
 B_O2tex	0.0169	B_O2 O2 <=> B_O2 O2
 B_DHFS	0.0001	B_ATP C10H12N5O13P3 + B_Dihydropteroate + B_L-Glutamate --> B_ADP C10H12N5O10P2 + B_7,8-Dihydrofolate + B_H+ + B_Phosphate
-B_GLCtex_copy1	8.8867	B_D-Glucose --> B_D-Glucose
+B_GLCtex_copy1	18.2662	B_D-Glucose --> B_D-Glucose
 B_PItex	0.0965	B_Phosphate <=> B_Phosphate
 B_METS	6.5643	B_5-Methyltetrahydrofolate + B_L-Homocysteine --> B_H+ + B_L-Methionine + B_5,6,7,8-Tetrahydrofolate
 B_PRASCSi	0.0448	B_5-amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxylate + B_L-Aspartate + B_ATP C10H12N5O13P3 --> B_(S)-2-[5-Amino-1-(5-phospho-D-ribosyl)imidazole-4-carboxamido]succinate + B_ADP C10H12N5O10P2 + B_H+ + B_Phosphate
 B_TRSARr	0.0	B_2-Hydroxy-3-oxopropanoate + B_H+ + B_Nicotinamide adenine dinucleotide - reduced <=> B_(R)-Glycerate + B_Nicotinamide adenine dinucleotide
 B_SO4tex	0.0252	B_Sulfate <=> B_Sulfate
-B_NH4tex	-5.4827	B_Ammonium <=> B_Ammonium
-B_CO2tex	-3.4978	B_CO2 CO2 <=> B_CO2 CO2
+B_NH4tex	0.4413	B_Ammonium <=> B_Ammonium
+B_CO2tex	-6.4598	B_CO2 CO2 <=> B_CO2 CO2
 B_MTHFR2	6.5643	2.0 B_H+ + B_5,10-Methylenetetrahydrofolate + B_Nicotinamide adenine dinucleotide - reduced --> B_5-Methyltetrahydrofolate + B_Nicotinamide adenine dinucleotide
 B_ASPO6	0.0002	B_L-Aspartate + B_O2 O2 --> B_Hydrogen peroxide + B_H+ + B_Iminoaspartate
 B_FE2tex	0.0016	B_Fe2+ mitochondria <=> B_Fe2+ mitochondria
 B_DHPS2	0.0001	B_4-Aminobenzoate + B_6-hydroxymethyl-dihydropterin pyrophosphate --> B_Dihydropteroate + B_Diphosphate
-B_MTHFC	-6.6272	B_H2O H2O + B_5,10-Methenyltetrahydrofolate <=> B_10-Formyltetrahydrofolate + B_H+
-B_MTHFD	-6.6272	B_5,10-Methylenetetrahydrofolate + B_Nicotinamide adenine dinucleotide phosphate <=> B_5,10-Methenyltetrahydrofolate + B_Nicotinamide adenine dinucleotide phosphate - reduced
+B_MTHFC	-8.5972	B_H2O H2O + B_5,10-Methenyltetrahydrofolate <=> B_10-Formyltetrahydrofolate + B_H+
+B_MTHFD	-8.5972	B_5,10-Methylenetetrahydrofolate + B_Nicotinamide adenine dinucleotide phosphate <=> B_5,10-Methenyltetrahydrofolate + B_Nicotinamide adenine dinucleotide phosphate - reduced
 B_QULNS	0.0002	B_Dihydroxyacetone phosphate + B_Iminoaspartate --> 2.0 B_H2O H2O + B_Phosphate + B_Quinolinate
-B_TYRtex	-309.5915	B_L-Tyrosine <=> B_L-Tyrosine
+B_TYRtex	-426.7342	B_L-Tyrosine <=> B_L-Tyrosine
 B_NI2tex	0.0	B_Nickel <=> B_Nickel
-B_NH4tpp	-5.4827	B_Ammonium <=> B_Ammonium
+B_NH4tpp	0.4413	B_Ammonium <=> B_Ammonium
 B_DNTPPA	0.0001	B_2-Amino-4-hydroxy-6-(erythro-1,2,3-trihydroxypropyl)dihydropteridine triphosphate + B_H2O H2O --> B_Dihydroneopterin monophosphate + B_H+ + B_Diphosphate
 B_MG2tex	0.0009	B_Magnesium <=> B_Magnesium
 B_Zn2tex	0.0	B_Zinc <=> B_Zinc
 B_ACGK	0.0296	B_N-Acetyl-L-glutamate + B_ATP C10H12N5O13P3 --> B_N-Acetyl-L-glutamyl 5-phosphate + B_ADP C10H12N5O10P2
-B_H2Otpp	-32.2649	B_H2O H2O <=> B_H2O H2O
+B_H2Otpp	-64.8464	B_H2O H2O <=> B_H2O H2O
 B_COBALT2tex	0.0	B_Co2+ <=> B_Co2+
-B_GLCptspp	8.8867	B_D-Glucose + B_Phosphoenolpyruvate --> B_D-Glucose 6-phosphate + B_Pyruvate
+B_GLCptspp	9.7103	B_D-Glucose + B_Phosphoenolpyruvate --> B_D-Glucose 6-phosphate + B_Pyruvate
+B_GLCt2pp	8.5559	B_D-Glucose + B_H+ --> B_D-Glucose + B_H+
 B_HSTPT	0.0095	B_L-Glutamate + B_3-(Imidazol-4-yl)-2-oxopropyl phosphate --> B_2-Oxoglutarate + B_L-Histidinol phosphate
 B_THDPS	0.0371	B_H2O H2O + B_Succinyl-CoA + B_2,3,4,5-Tetrahydrodipicolinate --> B_Coenzyme A + B_N-Succinyl-2-L-amino-6-oxoheptanedioate
 B_HMBS	0.0	B_H2O H2O + 4.0 B_Porphobilinogen --> B_Hydroxymethylbilane + 4.0 B_Ammonium
 B_MEPCT	0.0002	B_2-C-methyl-D-erythritol 4-phosphate + B_CTP C9H12N3O14P3 + B_H+ --> B_4-(cytidine 5'-diphospho)-2-C-methyl-D-erythritol + B_Diphosphate
-B_GLUDy	-0.8359	B_L-Glutamate + B_H2O H2O + B_Nicotinamide adenine dinucleotide phosphate <=> B_2-Oxoglutarate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced + B_Ammonium
+B_GLUDy	-8.7299	B_L-Glutamate + B_H2O H2O + B_Nicotinamide adenine dinucleotide phosphate <=> B_2-Oxoglutarate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced + B_Ammonium
 B_ATPM	6.86	B_ATP C10H12N5O13P3 + B_H2O H2O --> B_ADP C10H12N5O10P2 + B_H+ + B_Phosphate
 B_OMCDC	0.0451	B_3-Carboxy-4-methyl-2-oxopentanoate + B_H+ --> B_4-Methyl-2-oxopentanoate + B_CO2 CO2
 B_IG3PS	0.0095	B_L-Glutamine + B_5-[(5-phospho-1-deoxyribulos-1-ylamino)methylideneamino]-1-(5-phosphoribosyl)imidazole-4-carboxamide --> B_5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide + B_D-erythro-1-(Imidazol-4-yl)glycerol 3-phosphate + B_L-Glutamate + B_H+
-B_DADK	-2.9481	B_ATP C10H12N5O13P3 + B_DAMP C10H12N5O6P <=> B_ADP C10H12N5O10P2 + B_DADP C10H12N5O9P2
 B_DUTPDP	0.0026	B_DUTP C9H11N2O14P3 + B_H2O H2O --> B_DUMP C9H11N2O8P + B_H+ + B_Diphosphate
 B_DPR	0.0001	B_2-Dehydropantoate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_Nicotinamide adenine dinucleotide phosphate + B_(R)-Pantoate
 B_THRD_L	0.0291	B_L-Threonine --> B_2-Oxobutanoate + B_Ammonium
 B_DHFR	0.0027	B_7,8-Dihydrofolate + B_H+ + B_Nicotinamide adenine dinucleotide phosphate - reduced <=> B_Nicotinamide adenine dinucleotide phosphate + B_5,6,7,8-Tetrahydrofolate
 B_PRAIi	0.0057	B_N-(5-Phospho-D-ribosyl)anthranilate --> B_1-(2-Carboxyphenylamino)-1-deoxy-D-ribulose 5-phosphate
-B_SHKK	0.0243	B_ATP C10H12N5O13P3 + B_Shikimate --> B_ADP C10H12N5O10P2 + B_H+ + B_Shikimate 5-phosphate
-B_PDH	0.7332	B_Coenzyme A + B_Nicotinamide adenine dinucleotide + B_Pyruvate --> B_Acetyl-CoA + B_CO2 CO2 + B_Nicotinamide adenine dinucleotide - reduced
+B_TYRTA	-5.9239	B_2-Oxoglutarate + B_L-Tyrosine <=> B_3-(4-Hydroxyphenyl)pyruvate + B_L-Glutamate
+B_SHKK	5.9482	B_ATP C10H12N5O13P3 + B_Shikimate --> B_ADP C10H12N5O10P2 + B_H+ + B_Shikimate 5-phosphate
+B_PDH	2.6894	B_Coenzyme A + B_Nicotinamide adenine dinucleotide + B_Pyruvate --> B_Acetyl-CoA + B_CO2 CO2 + B_Nicotinamide adenine dinucleotide - reduced
 B_ACGS	0.0296	B_Acetyl-CoA + B_L-Glutamate --> B_N-Acetyl-L-glutamate + B_Coenzyme A + B_H+
 B_CU2tex	0.0001	B_Copper <=> B_Copper
 B_ALAALAr	0.0028	2.0 B_D-Alanine + B_ATP C10H12N5O13P3 <=> B_ADP C10H12N5O10P2 + B_D-Alanyl-D-alanine + B_H+ + B_Phosphate
 B_CLtex	0.0005	B_Chloride <=> B_Chloride
 B_SUCOAS	0.0525	B_ATP C10H12N5O13P3 + B_Coenzyme A + B_Succinate <=> B_ADP C10H12N5O10P2 + B_Phosphate + B_Succinyl-CoA
 B_PANTS	0.0001	B_Beta-Alanine + B_ATP C10H12N5O13P3 + B_(R)-Pantoate --> B_AMP C10H12N5O7P + B_H+ + B_(R)-Pantothenate + B_Diphosphate
-B_DHQS	0.0243	B_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate --> B_3-Dehydroquinate + B_Phosphate
+B_DHQS	5.9482	B_2-Dehydro-3-deoxy-D-arabino-heptonate 7-phosphate --> B_3-Dehydroquinate + B_Phosphate
 B_ADSL1r	0.0299	B_N6-(1,2-Dicarboxyethyl)-AMP <=> B_AMP C10H12N5O7P + B_Fumarate
 B_AICART	0.0543	B_10-Formyltetrahydrofolate + B_5-Amino-1-(5-Phospho-D-ribosyl)imidazole-4-carboxamide <=> B_5-Formamido-1-(5-phospho-D-ribosyl)imidazole-4-carboxamide + B_5,6,7,8-Tetrahydrofolate
-B_PFK	0.7996	B_ATP C10H12N5O13P3 + B_D-Fructose 6-phosphate --> B_ADP C10H12N5O10P2 + B_D-Fructose 1,6-bisphosphate + B_H+
-B_PGM	-11.2198	B_D-Glycerate 2-phosphate <=> B_3-Phospho-D-glycerate
-B_TPI	9.0077	B_Dihydroxyacetone phosphate <=> B_Glyceraldehyde 3-phosphate
-B_RPI	-6.4003	B_Alpha-D-Ribose 5-phosphate <=> B_D-Ribulose 5-phosphate
+B_PFK	11.8432	B_ATP C10H12N5O13P3 + B_D-Fructose 6-phosphate --> B_ADP C10H12N5O10P2 + B_D-Fructose 1,6-bisphosphate + B_H+
+B_PGM	-24.0458	B_D-Glycerate 2-phosphate <=> B_3-Phospho-D-glycerate
+B_TPI	18.378	B_Dihydroxyacetone phosphate <=> B_Glyceraldehyde 3-phosphate
+B_RPI	-6.4095	B_Alpha-D-Ribose 5-phosphate <=> B_D-Ribulose 5-phosphate
 B_GLNS	0.1566	B_ATP C10H12N5O13P3 + B_L-Glutamate + B_Ammonium --> B_ADP C10H12N5O10P2 + B_L-Glutamine + B_H+ + B_Phosphate
-B_ADNK1	9.4971	B_Adenosine + B_ATP C10H12N5O13P3 --> B_ADP C10H12N5O10P2 + B_AMP C10H12N5O7P + B_H+
+B_ADNK1	6.5489	B_Adenosine + B_ATP C10H12N5O13P3 --> B_ADP C10H12N5O10P2 + B_AMP C10H12N5O7P + B_H+
 B_MNtex	0.0001	B_Manganese <=> B_Manganese
 B_SHCHF	0.0	B_Fe2+ mitochondria + B_Sirohydrochlorin --> 3.0 B_H+ + B_Siroheme C42H36FeN4O16
 B_PRAIS	0.0448	B_ATP C10H12N5O13P3 + B_2-(Formamido)-N1-(5-phospho-D-ribosyl)acetamidine --> B_ADP C10H12N5O10P2 + B_5-amino-1-(5-phospho-D-ribosyl)imidazole + 2.0 B_H+ + B_Phosphate
@@ -763,7 +762,7 @@ B_MN2tpp	0.0001	B_Manganese --> B_Manganese
 B_CU2tpp	0.0001	B_Copper --> B_Copper
 B_MG2t3_2pp	0.0009	2.0 B_H+ + B_Magnesium <=> 2.0 B_H+ + B_Magnesium
 B_CLt3_2pp	0.0003	2.0 B_Chloride + B_H+ --> 2.0 B_Chloride + B_H+
-B_POR5	2.959	B_Coenzyme A + 2.0 B_Flavodoxin semi oxidized + B_Pyruvate <=> B_Acetyl-CoA + B_CO2 CO2 + 2.0 B_Flavodoxin reduced + B_H+
+B_POR5	0.0109	B_Coenzyme A + 2.0 B_Flavodoxin semi oxidized + B_Pyruvate <=> B_Acetyl-CoA + B_CO2 CO2 + 2.0 B_Flavodoxin reduced + B_H+
 B_ICYSDS	0.0001	B_L-Cysteine + B_IscS sulfur acceptor protein --> B_L-Alanine + B_IscS with bound sulfur
 B_I4FE4SR	0.0	B_Flavin adenine dinucleotide reduced + 2.0 B_H+ + B_IscU with two bound [2Fe-2S] clusters --> B_Flavin adenine dinucleotide oxidized + B_IscU with bound [4Fe-4S] cluster
 B_I2FE2SS	0.0	B_Flavin adenine dinucleotide reduced + 2.0 B_Fe2+ mitochondria + 2.0 B_IscS with bound sulfur + B_IscU scaffold protein --> B_Flavin adenine dinucleotide oxidized + 6.0 B_H+ + 2.0 B_IscS sulfur acceptor protein + B_IscU with bound [2Fe-2S] cluster
@@ -776,18 +775,14 @@ B_TYRL	0.0	B_S-Adenosyl-L-methionine + B_Nicotinamide adenine dinucleotide phosp
 B_THZPSN3	0.0	B_ATP C10H12N5O13P3 + B_Dehydroglycine + B_1-deoxy-D-xylulose 5-phosphate + B_H+ + B_IscS with bound sulfur + B_Nicotinamide adenine dinucleotide phosphate - reduced --> B_4-Methyl-5-(2-phosphoethyl)-thiazole + B_AMP C10H12N5O7P + B_CO2 CO2 + 2.0 B_H2O H2O + B_IscS sulfur acceptor protein + B_Nicotinamide adenine dinucleotide phosphate + B_Diphosphate
 B_K2L4Aabctex	0.0019	B_ATP C10H12N5O13P3 + B_H2O H2O + B_KDO(2)-lipid IV(A) --> B_ADP C10H12N5O10P2 + B_H+ + B_KDO(2)-lipid IV(A) + B_Phosphate
 B_MECDPDH5	0.0002	B_2-C-methyl-D-erythritol 2,4-cyclodiphosphate + 2.0 B_Flavodoxin reduced + B_H+ --> 2.0 B_Flavodoxin semi oxidized + B_1-hydroxy-2-methyl-2-(E)-butenyl 4-diphosphate + B_H2O H2O
-B_RNTR1c2	2.9508	B_ATP C10H12N5O13P3 + 2.0 B_Flavodoxin reduced + 2.0 B_H+ --> B_DATP C10H12N5O12P3 + 2.0 B_Flavodoxin semi oxidized + B_H2O H2O
+B_RNTR1c2	0.0026	B_ATP C10H12N5O13P3 + 2.0 B_Flavodoxin reduced + 2.0 B_H+ --> B_DATP C10H12N5O12P3 + 2.0 B_Flavodoxin semi oxidized + B_H2O H2O
 B_RNTR2c2	0.0027	2.0 B_Flavodoxin reduced + B_GTP C10H12N5O14P3 + 2.0 B_H+ --> B_DGTP C10H12N5O13P3 + 2.0 B_Flavodoxin semi oxidized + B_H2O H2O
 B_RNTR3c2	0.0027	B_CTP C9H12N3O14P3 + 2.0 B_Flavodoxin reduced + 2.0 B_H+ --> B_DCTP C9H12N3O13P3 + 2.0 B_Flavodoxin semi oxidized + B_H2O H2O
 B_RNTR4c2	0.0026	2.0 B_Flavodoxin reduced + 2.0 B_H+ + B_UTP C9H11N2O15P3 --> B_DUTP C9H11N2O14P3 + 2.0 B_Flavodoxin semi oxidized + B_H2O H2O
 B_FESR	0.0008	B_[3Fe-4S] damaged iron-sulfur cluster + B_Fe2+ mitochondria --> B_[4Fe-4S] iron-sulfur cluster
 B_DHNPA2r	0.0001	B_Dihydroneopterin <=> B_6-hydroxymethyl dihydropterin + B_Glycolaldehyde
-B_PYK2	0.0425	B_H+ + B_Phosphoenolpyruvate + B_UDP C9H11N2O12P2 --> B_Pyruvate + B_UTP C9H11N2O15P3
-B_PYK3	0.079	B_GDP C10H12N5O11P2 + B_H+ + B_Phosphoenolpyruvate --> B_GTP C10H12N5O14P3 + B_Pyruvate
-B_PYK4	0.0181	B_CDP C9H12N3O11P2 + B_H+ + B_Phosphoenolpyruvate --> B_CTP C9H12N3O14P3 + B_Pyruvate
 B_AI2K	6.5489	B_ATP C10H12N5O13P3 + B_4,5-dihydroxy-2,3-pentanedione --> B_ADP C10H12N5O10P2 + B_(4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione + B_H+
 B_PIt2rpp	0.0965	B_H+ + B_Phosphate --> B_H+ + B_Phosphate
-B_PYK6	0.0026	B_DTDP C10H13N2O11P2 + B_H+ + B_Phosphoenolpyruvate --> B_DTTP C10H13N2O14P3 + B_Pyruvate
 B_PAI2I	6.5489	B_(4S)-4-hydroxy-5-phosphonooxypentane-2,3-dione --> B_3-hydroxy-5-phosphonooxypentane-2,4-dione
 B_4HTHRK	0.0	B_4-Hydroxy-L-threonine + B_ATP C10H12N5O13P3 --> B_ADP C10H12N5O10P2 + B_H+ + B_O-Phospho-4-hydroxy-L-threonine
 B_4HTHRA	-0.0	B_4-Hydroxy-L-threonine <=> B_Glycolaldehyde + B_Glycine
@@ -798,9 +793,9 @@ B_4CL	6.5488	B_ATP C10H12N5O13P3 + B_Coenzyme A + B_4-coumarate --> B_AMP C10H12
 B_CHS	6.5488	B_(E)-4-coumaroyl-CoA + 3.0 B_H+ + 3.0 B_Malonyl CoA C24H33N7O19P3S --> B_naringenin chalcone + 3.0 B_CO2 CO2 + 4.0 B_Coenzyme A
 B_CHI	6.5488	B_naringenin chalcone --> B_naringenin
 B_NOMT	6.5488	B_S-Adenosyl-L-methionine + B_naringenin --> B_S-Adenosyl-L-homocysteine + B_H+ + B_sakuranetin
-B_tyr__L_c2e	-316.1542	B_L-Tyrosine <=> B_L-Tyrosine
+B_tyr__L_c2e	-427.3729	B_L-Tyrosine <=> B_L-Tyrosine
 B_sakuranetin_c2e	6.5488	B_sakuranetin <=> B_sakuranetin
-A_co2_e_con_1	3.5116	A_CO2 CO2 <=> CO2 CO2
+A_co2_e_con_1	0.5497	A_CO2 CO2 <=> CO2 CO2
 A_cu2_e_con_1	-0.0001	A_Copper <=> Copper
 A_ca2_e_con_1	-0.0005	A_Calcium <=> Calcium
 A_cobalt2_e_con_1	-0.0	A_Co2+ <=> Co2+
@@ -808,18 +803,18 @@ A_zn2_e_con_1	-0.0	A_Zinc <=> Zinc
 A_mn2_e_con_1	-0.0001	A_Manganese <=> Manganese
 A_k_e_con_1	-0.0195	A_Potassium <=> Potassium
 A_fe2_e_con_1	-0.0016	A_Fe2+ mitochondria <=> Fe2+ mitochondria
-A_h_e_con_1	7.4815	A_H+ <=> H+
+A_h_e_con_1	1.5576	A_H+ <=> H+
 A_mg2_e_con_1	-0.0009	A_Magnesium <=> Magnesium
 A_so4_e_con_1	-0.0252	A_Sulfate <=> Sulfate
-A_tyr__L_e_con_1	6.5627	A_L-Tyrosine <=> L-Tyrosine
-A_glc__D_e_con_1	-11.1133	A_D-Glucose <=> D-Glucose
-A_nh4_e_con_1	-7.6426	A_Ammonium <=> Ammonium
+A_tyr__L_e_con_1	0.6387	A_L-Tyrosine <=> L-Tyrosine
+A_glc__D_e_con_1	-1.7338	A_D-Glucose <=> D-Glucose
+A_nh4_e_con_1	-1.7187	A_Ammonium <=> Ammonium
 A_o2_e_con_1	-0.0169	A_O2 O2 <=> O2 O2
 A_cl_e_con_1	-0.0005	A_Chloride <=> Chloride
 A_ni2_e_con_1	-0.0	A_Nickel <=> Nickel
 A_pi_e_con_1	-0.0965	A_Phosphate <=> Phosphate
-A_h2o_e_con_1	38.9656	A_H2O H2O <=> H2O H2O
-B_co2_e_con_2	-3.4978	CO2 CO2 <=> B_CO2 CO2
+A_h2o_e_con_1	6.3841	A_H2O H2O <=> H2O H2O
+B_co2_e_con_2	-6.4598	CO2 CO2 <=> B_CO2 CO2
 B_cu2_e_con_2	0.0001	Copper <=> B_Copper
 B_ca2_e_con_2	0.0005	Calcium <=> B_Calcium
 B_cobalt2_e_con_2	0.0	Co2+ <=> B_Co2+
@@ -827,17 +822,17 @@ B_zn2_e_con_2	0.0	Zinc <=> B_Zinc
 B_mn2_e_con_2	0.0001	Manganese <=> B_Manganese
 B_k_e_con_2	0.0195	Potassium <=> B_Potassium
 B_fe2_e_con_2	0.0016	Fe2+ mitochondria <=> B_Fe2+ mitochondria
-B_h_e_con_2	5.6438	H+ <=> B_H+
+B_h_e_con_2	-0.2801	H+ <=> B_H+
 B_mg2_e_con_2	0.0009	Magnesium <=> B_Magnesium
 B_so4_e_con_2	0.0252	Sulfate <=> B_Sulfate
-B_tyr__L_e_con_2	6.5627	L-Tyrosine <=> B_L-Tyrosine
-B_glc__D_e_con_2	8.8867	D-Glucose <=> B_D-Glucose
-B_nh4_e_con_2	-5.4827	Ammonium <=> B_Ammonium
+B_tyr__L_e_con_2	0.6387	L-Tyrosine <=> B_L-Tyrosine
+B_glc__D_e_con_2	18.2662	D-Glucose <=> B_D-Glucose
+B_nh4_e_con_2	0.4413	Ammonium <=> B_Ammonium
 B_o2_e_con_2	0.0169	O2 O2 <=> B_O2 O2
 B_cl_e_con_2	0.0005	Chloride <=> B_Chloride
 B_ni2_e_con_2	0.0	Nickel <=> B_Nickel
 B_pi_e_con_2	0.0965	Phosphate <=> B_Phosphate
-B_h2o_e_con_2	-32.2649	H2O H2O <=> B_H2O H2O
+B_h2o_e_con_2	-64.8464	H2O H2O <=> B_H2O H2O
 B_sakuranetin_e_con_2	-6.5488	sakuranetin <-- B_sakuranetin
 EX_pi_e	-0.1929	Phosphate <=> 
 EX_h_e	1.8377	H+ <=> 

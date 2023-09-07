@@ -45687,7 +45687,7 @@
 "metabolites":{
 "tyr__L_e":-1.0
 },
-"lower_bound":0.1,
+"lower_bound":0,
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "annotation":{
@@ -100662,9 +100662,10 @@
 "val__L_c":-0.423162,
 "zn2_c":-0.000341
 },
-"lower_bound":0.1,
-"upper_bound":1000,
+"lower_bound":0.0,
+"upper_bound":1000.0,
 "gene_reaction_rule":"",
+"objective_coefficient":1.0,
 "annotation":{
 "bigg.reaction":"Ec_iML1515_core_75p37M",
 "sbo":"SBO:0000629"
@@ -100870,17 +100871,6 @@
 "upper_bound":1000,
 "gene_reaction_rule":"",
 "subsystem":"unknow"
-},
-{
-"id":"DM_Tyrosol_c",
-"name":"Tyrosol demand",
-"metabolites":{
-"Tyrosol_c":-1
-},
-"lower_bound":0,
-"upper_bound":1000.0,
-"gene_reaction_rule":"",
-"objective_coefficient":1.0
 }
 ],
 "genes":[
