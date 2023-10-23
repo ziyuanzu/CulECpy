@@ -1,6 +1,6 @@
 # CulECpy
 
-The process for enzyme-constrained model construction.
+The process for Co-cultivated enzyme constraint metabolic network model construction.
 
 ## About
 
